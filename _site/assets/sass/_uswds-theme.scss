@@ -1,0 +1,32 @@
+/*
+----------------------------------------
+USWDS with settings overrides
+----------------------------------------
+Uncomment the following lines and add a list of changed settings
+in the form $setting: value,
+----------------------------------------
+*/
+
+
+ @use "uswds-core" with (
+  $theme-utility-breakpoints: (
+    'card':              false,   // 160px
+    'card-lg':           false,   // 240px
+    'mobile':            false,   // 320px
+    'mobile-lg':         true,    // 480px
+    'tablet':            true,    // 640px
+    'tablet-lg':         false,   // 880px
+    'desktop':           true,    // 1024px
+    'desktop-lg':        true,   // 1200px
+    'widescreen':        true,   // 1400px
+  ),
+
+  $theme-show-compile-warnings: true,
+  $theme-show-notifications: false,
+
+  $theme-header-max-width: "widescreen",
+
+  $theme-footer-max-width: "widescreen",
+
+);
+
