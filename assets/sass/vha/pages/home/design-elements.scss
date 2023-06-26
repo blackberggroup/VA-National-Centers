@@ -1,0 +1,10 @@
+.svg-container {
+    position: absolute;
+    z-index: -1;
+
+    &.svg-blur-1 {
+        width: 1000px;
+        left: -450px;
+        bottom: -400px;
+    }
+}
