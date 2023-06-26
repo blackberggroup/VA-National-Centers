@@ -10,7 +10,7 @@ National Center for Collaborative Healthcare Innovation website repo.
     
     This will create a va-ncchi-beta directory with the website files inside. Navigate to this new directory:
     ```bash
-    cd va-ncchi-beta`
+    cd uswds-tutorial
     ```
 
 1. Install Node.js `16.16.0` or higher =>
