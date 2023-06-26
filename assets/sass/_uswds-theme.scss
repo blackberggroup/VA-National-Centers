@@ -21,20 +21,14 @@ in the form $setting: value,
     'widescreen':        true,   // 1400px
   ),
 
-  $theme-show-compile-warnings: true,
+  $theme-show-compile-warnings: false,
   $theme-show-notifications: false,
-  $theme-font-type-sans: "public-sans",
   $theme-grid-container-max-width: "widescreen",
 
   
   /* ----------------------------------------
   TYPOGRAPHY
   ---------------------------------------- */
-  $theme-root-font-size: 16px,  
-  $theme-body-line-height: 5,
-  $theme-heading-margin-top: 0,
-  $theme-h1-font-size: "3xs",
-  $theme-color-primary-family: "red",
 
   /* ----------------------------------------
   HEADER
@@ -48,5 +42,9 @@ in the form $setting: value,
 
   $theme-identifier-max-width: "widescreen",
 
-);
+  $theme-card-border-width: 1px,
 
+  $theme-color-base-family: "base-ligher",
+  $theme-color-base-lighter: "gray-70",
+  $theme-color-base-ink: "gray-1",
+);
