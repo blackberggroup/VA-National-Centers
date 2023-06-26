@@ -1,0 +1,41 @@
+.masthead {
+ 
+    &__bg-video-container {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__bg-video {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__bg-fade {
+        position: absolute;
+        z-index:0;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        
+        &.bg-1 {
+            background: linear-gradient(180deg, #171716 0%, rgba(23, 23, 22, 0) 35.37%, #171716 88.96%);
+        }
+
+        &.bg-2 {
+            background: linear-gradient(90deg, #171716 0.61%, rgba(23, 23, 22, 0) 22.65%, rgba(23, 23, 22, 0) 61.08%, #171716 99%);
+
+        }
+
+    }
+
+
+}
+
+.z-index-10 { z-index:10;}
