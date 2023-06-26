@@ -1,9 +1,17 @@
+@use "uswds-core" as *;
+
+
 .masthead {
+
+    &__content {
+        position: relative;
+        z-index: 10;
+    }
  
     &__bg-video-container {
         position: absolute;
         z-index: -1;
-        top: 0;
+        top: -1px;
         left: 0;
         height: 100%;
         width: 100%;
@@ -19,9 +27,9 @@
     &__bg-fade {
         position: absolute;
         z-index:0;
-        top: 0;
         left: 0;
-        height: 100%;
+        top: 0;
+        height: 101%;
         width: 100%;
         
         &.bg-1 {
@@ -35,7 +43,87 @@
 
     }
 
+    &__img {
+        position: relative;
+
+        &-container {
+            position: relative;
+            z-index: 10;
+        }    
+    }
+
+
+    &__logo-stroke {
+        position: absolute;
+        z-index: 1;
+    }
+
+    @include at-media(mobile) {
+        &__logo-stroke { 
+            height: 100%;
+            width: 100%;
+
+            &.logo-stroke-1 {
+                top: -20px;
+                left: 20px;
+            }
+
+            &.logo-stroke-2 {
+                top: -60px;
+                left: 50px;
+            }            
+        }        
+    }
+
+    @include at-media(tablet-lg) {
+        &__logo-stroke { 
+            height: 400px;
+            width: 430px;
+
+            &.logo-stroke-1 {
+                top: -20px;
+                left: 20px;
+            }
+
+            &.logo-stroke-2 {
+                top: -60px;
+                left: 50px;
+            }            
+        }        
+    }
+
+    @include at-media(desktop) {
+        &__logo-stroke { 
+            height: 500px;
+            width: 530px;
+
+            &.logo-stroke-1 {
+                top: -20px;
+                left: 10px;
+            }
+
+            &.logo-stroke-2 {
+                top: -60px;
+                left: 70px;
+            }            
+        }
+    }
+  
+    @include at-media(desktop-lg) {
+        &__logo-stroke { 
+            height: 640px;
+            width: 630px;
+
+            &.logo-stroke-1 {
+                top: -10px;
+                left: 10px;
+            }
+
+            &.logo-stroke-2 {
+                top: -60px;
+                left: 70px;
+            }            
+        }
+    }
 
 }
-
-.z-index-10 { z-index:10;}
