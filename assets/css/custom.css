@@ -1,8 +1,4 @@
-/*
-----------------------------------------
-Navigation
-----------------------------------------
-*/@charset "UTF-8";
+@charset "UTF-8";
 /* VETERANS CRISIS LINE styles */
 .vcl-button {
     background: #8b0a03 url(/assets/uswds/img/usa-icons/chevron_right-white.svg) calc(100% - 0.3em) 0.5rem no-repeat;
