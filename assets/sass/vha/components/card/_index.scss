@@ -1,5 +1,7 @@
+@use "uswds-core" as *;
+
 .usa-card__container {
-    background-color: #1b1b1b; // gray-90
+    background-color: #{color("gray-90")};
 }
 
 .usa-card__img {
