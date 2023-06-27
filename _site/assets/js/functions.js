@@ -1,6 +1,5 @@
 $('.vha-video__play-action').magnificPopup({
-    type: 'iframe',
-    
+    type: 'iframe', 
     
     iframe: {
        markup: '<div class="mfp-iframe-scaler">'+
@@ -9,5 +8,4 @@ $('.vha-video__play-action').magnificPopup({
                   '<div class="mfp-title">Some caption</div>'+
                 '</div>'
     }
-    
-  });
+});
