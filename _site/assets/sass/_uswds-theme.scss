@@ -12,21 +12,39 @@ in the form $setting: value,
   $theme-utility-breakpoints: (
     'card':              false,   // 160px
     'card-lg':           false,   // 240px
-    'mobile':            false,   // 320px
+    'mobile':            true,   // 320px
     'mobile-lg':         true,    // 480px
     'tablet':            true,    // 640px
-    'tablet-lg':         false,   // 880px
+    'tablet-lg':         true,   // 880px
     'desktop':           true,    // 1024px
     'desktop-lg':        true,   // 1200px
     'widescreen':        true,   // 1400px
   ),
 
-  $theme-show-compile-warnings: true,
+  $theme-show-compile-warnings: false,
   $theme-show-notifications: false,
+  $theme-grid-container-max-width: "widescreen",
 
+  
+  /* ----------------------------------------
+  TYPOGRAPHY
+  ---------------------------------------- */
+
+  /* ----------------------------------------
+  HEADER
+  ---------------------------------------- */
   $theme-header-max-width: "widescreen",
 
+  /* ----------------------------------------
+  FOOTER
+  ---------------------------------------- */
   $theme-footer-max-width: "widescreen",
 
-);
+  $theme-identifier-max-width: "widescreen",
 
+  $theme-card-border-width: 1px,
+
+  $theme-color-base-family: "base-ligher",
+  $theme-color-base-lighter: "gray-70",
+  $theme-color-base-ink: "gray-1",
+);

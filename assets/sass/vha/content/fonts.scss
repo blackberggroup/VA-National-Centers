@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Myriad-Pro';
+    src: url('/assets/fonts/myriad-pro/MYRIADPRO-REGULAR.woff') format('woff'),
+        url('/assets/fonts/myriad-pro/MYRIADPRO-REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: 'Myriad-Pro';
+    src: url('/assets/fonts/myriad-pro/MYRIADPRO-BOLD.woff') format('woff'),
+        url('/assets/fonts/myriad-pro/MYRIADPRO-BOLD.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+   }
+
+body { font-family: "Myriad-Pro", Helvetica, arial, sans-serif; }

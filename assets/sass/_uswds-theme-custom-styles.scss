@@ -22,7 +22,6 @@ i.e.
 
 @use "uswds-core" as *;
 
-// load in the VHA Custom Styles
 @forward "vha/";
 
 :root {
@@ -47,4 +46,8 @@ i.e.
    --teal-2: #{color("mint-30v")};
    --yellow-1: #{color("gold-10v")};
    --yellow-7: #{color("gold-30v")};
+   --font-sans: #{family("sans")};
+   --font-serif: #{family("serif")};
+   --font-mono: #{family("mono")};  
  }
+ 
