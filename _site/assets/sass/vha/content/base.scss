@@ -1,5 +1,7 @@
+@use "uswds-core" as *;
+
 body {
-    background-color: #171716; // gray-warm-90
+    background-color: #{color("gray-warm-90")};
 }
 
 section {
