@@ -4,6 +4,12 @@ body {
     background-color: #{color("gray-warm-90")};
 }
 
+body.ncchi-interior {
+        background-image: url('/assets/img/interior/page-title-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+}
+
 section {
     position: relative;
     z-index: 1;
