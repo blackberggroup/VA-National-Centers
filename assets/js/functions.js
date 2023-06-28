@@ -26,7 +26,7 @@ $(function () {
         nav: false
       },
       1000: {
-        items: 5,
+        items: 6,
         nav: true,
         loop: true
       }
