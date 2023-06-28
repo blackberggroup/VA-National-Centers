@@ -1,7 +1,8 @@
 @use "uswds-core" as *;
-@import "../../../../node_modules/rfs/scss";
 
 .publication-list {
+
+    background-color: #171716;
 
     &__item {
         border-bottom: 1px solid #{color("gray-warm-80")};
