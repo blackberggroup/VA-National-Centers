@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -21,109 +19,204 @@
   <body class="ncchi-home style-ncchi">
 
     <div class="usa-overlay"></div>
-<header class="usa-header usa-header--basic">
-  <div class="usa-nav-container">
-    <div class="usa-navbar">
-      <div class="usa-logo">
-        <em class="usa-logo__text"
-          ><a href="/" title="<Project title>">&lt;Project title&gt;</a></em
-        >
+
+
+  <!-- BEGIN USWDS Banner, gov domain -->
+<section class="usa-banner" aria-label="Official website of the United States government">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img aria-hidden="true" class="usa-banner__header-flag" src="/assets/uswds/img/us_flag_small.png" alt="US Flag icon" />
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+          <p class="usa-banner__header-text">
+            An official website of the United States government
+          </p>
+          <p class="usa-banner__header-action">Here's how you know</p>
+        </div>
+        <button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false"
+          aria-controls="gov-banner-default-default">
+          <span class="usa-banner__button-text">Here's how you know</span>
+        </button>
       </div>
-      <button type="button" class="usa-menu-btn">Menu</button>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner-default-default">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/assets/uswds/img/icon-dot-gov.svg" role="img" alt="goverment building icon"
+            aria-hidden="true" />
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong><br />A
+              <strong>.gov</strong> website belongs to an official government
+              organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/assets/uswds/img/icon-https.svg" role="img" alt="lock icon" aria-hidden="true" />
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong><br />A
+              <strong>lock</strong> (
+              <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64"
+                  class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-description-default"
+                  focusable="false">
+                  <title id="banner-lock-title-default">Lock</title>
+                  <desc id="banner-lock-description-default">Locked padlock icon</desc>
+                  <path fill="#000000" fill-rule="evenodd"
+                    d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                </svg> </span>) or <strong>https://</strong> means you've safely connected to
+              the .gov website. Share sensitive information only on official,
+              secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <nav aria-label="Primary navigation" class="usa-nav">
+  </div>
+</section>
+<!-- END USWDS Banner, gov domain -->
+
+<!-- Begin USWDS Modal -->
+<div class="margin-y-3">
+  <a href="#example-modal-1" class="usa-button vcl-button" aria-controls="example-modal-1" data-open-modal><span
+      class="vcl-logo"></span> Talk to the Veterans Crisis Line</a>
+  <div class="usa-modal vcl-modal" id="example-modal-1" aria-labelledby="modal-1-heading"
+    aria-describedby="modal-1-description">
+    <div class="usa-modal__content">
+      <div class="usa-modal__main">
+        <h2 class="usa-modal__heading vcl-modal__title" id="modal-1-heading">
+          We&rsquo;re here anytime, day or night - 24/7
+        </h2>
+        <div class="usa-prose">
+          <p id="modal-1-description">
+            If you are a Veteran in crisis or concerned about one, connect with our caring, qualified responders for
+            confidential help. Many of them are Veterans themselves.
+          </p>
+          <ul>
+            <li class="display-flex border-top-1px border-bottom-1px">
+              <a href="tel:18002738255" tabindex="0" id="vcl-crisis-primary" class="vcl-call">
+                Call <strong>
+                  1-800-273-8255 and press
+                  1
+                </strong>
+              </a>
+            </li>
+            <li class="display-flex border-bottom-1px">
+              <a href="sms:838255" class="vcl-text"> Text to <b>838255</b></a>
+            </li>
+            <li class="display-flex border-bottom-1px">
+              <a href="https://www.veteranscrisisline.net/ChatTermsOfService.aspx?account=Veterans%20Chat"
+                class="vcl-chat"> Chat
+                <b>confidentially now</b></a>
+            </li>
+            <li class="display-flex border-bottom-1px">
+              <a href="tel:18007994889" class="vcl-tty">
+                Call TTY if you
+                have hearing loss <strong>1-800-799-4889</strong>
+              </a>
+            </li>
+          </ul>
+          <p class="font-sans-xs">Get more resources at <a
+              href="https://www.veteranscrisisline.net/">VeteransCrisisLine.net</a>.</p>
+        </div>
+      </div>
+      <button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+          <use xlink:href="/assets/uswds/img/sprite.svg#close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+<!-- END USWDS Modal popup -->
+
+<!-- BEGIN USWDS Header, extended -->
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo">
+      <em class="usa-logo__text"><a href="/" title="VHA Innovation Ecosystem">
+          VA <span> | VHA Innovation Ecosystem</span>
+        </a></em>
+    </div>
+    <button type="button" class="usa-menu-btn">Menu</button>
+  </div>
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
       <button type="button" class="usa-nav__close">
         <img src="/assets/uswds/img/usa-icons/close.svg" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
-          <button
-            type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
-            aria-expanded="false"
-            aria-controls="basic-nav-section-one"
-          >
-            <span>&lt;Current section&gt;</span>
+          <button type="button" class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="extended-nav-section-one">
+            <span class="font-body-md">About</span>
           </button>
-          <ul id="basic-nav-section-one" class="usa-nav__submenu">
+          <ul id="extended-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
+              <a href="/ecosystem/views/about/mission.html" class="font-body-md"
+                title="Mission"><span>Mission</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
+              <a href="/ecosystem/views/about/leadership.html" class="font-body-md"
+                title="Leadership"><span>Leadership</span></a>
             </li>
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <button
-            type="button"
-            class="usa-accordion__button usa-nav__link"
-            aria-expanded="false"
-            aria-controls="basic-nav-section-two"
-          >
-            <span>&lt;Section&gt;</span>
+          <button type="button" class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="extended-nav-section-two">
+            <span class="font-body-md">Portfolios and Programs</span>
           </button>
-          <ul id="basic-nav-section-two" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
+          <ul id="extended-nav-section-two" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item" title="VHA Innovators Network">
+              <a href="/ecosystem/views/innovators-network/innovators-network.html"
+                class="font-body-md"><span>Innovators Network</span></a>
             </li>
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
+            <li class="usa-nav__submenu-item" title="VHA Diffusion of Excellence">
+              <a href="/ecosystem/views/diffusion-excellence/doe.html" class="font-body-md"><span>Diffusion of
+                  Excellence</span></a>
             </li>
-            <li class="usa-nav__submenu-item">
-              <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
-              >
+            <li class="usa-nav__submenu-item" title="VHA National Centers for Innovation to Impact">
+              <a href="/ecosystem/views/national-centers/nci2i.html" class="font-body-md"><span>National Centers for
+                  Innovation to Impact</span></a>
+            </li>
+            <li class="usa-nav__submenu-item" title="VHA IE Fellowships">
+              <a href="/ecosystem/views/programs/fellowship.html" class="font-body-md"><span>Fellowships</span></a>
+            </li>
+            <li class="usa-nav__submenu-item" title="VHA IE Community Engagement">
+              <a href="/ecosystem/views/programs/community-engagement.html" class="font-body-md"><span>Community
+                  Engagement</span></a>
             </li>
           </ul>
         </li>
-        <li class="usa-nav__primary-item">
-          <a href="javascript:void(0);" class="usa-nav-link"
-            ><span>&lt;Simple link&gt;</span></a
-          >
+        <li class="usa-nav__primary-item" title="Pathfinder">
+          <a href="https://www.pathfinder.va.gov/" class="usa-nav-link font-body-md"><span>Pathfinder</span></a>
+        </li>
+        <li class="usa-nav__primary-item" title="News and Events">
+          <a href="/ecosystem/views/news-events/newsandevents.html" class="usa-nav-link font-body-md"><span>News and
+              Events</span></a>
         </li>
       </ul>
-      <section aria-label="Search component">
-        <form class="usa-search usa-search--small" role="search">
-          <label class="usa-sr-only" for="search-field">Search</label>
-          <input
-            class="usa-input"
-            id="search-field"
-            type="search"
-            name="search"
-          />
-          <button class="usa-button" type="submit">
-            <img
-              src="/assets/uswds/img/usa-icons-bg/search--white.svg"
-              class="usa-search__submit-icon"
-              alt="Search"
-            />
-          </button>
-        </form>
-      </section>
-    </nav>
-  </div>
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links"></ul>
+        <section aria-label="Search component">
+          <form class="usa-search usa-search--small" role="search">
+            <label class="usa-sr-only" for="search-field">Search</label>
+            <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search" />
+            <button class="usa-button" type="submit">
+              <img src="/assets/uswds/img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon"
+                alt="Search" />
+            </button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </nav>
 </header>
-
-
+<!-- END USWDS Header, extended-->
 
     <main>
       <!-- MASTHEAD - START -->
@@ -157,7 +250,7 @@
     <div class="masthead__bg-video-container">
         <div class="masthead__bg-fade bg-1"></div>
         <div class="masthead__bg-fade bg-2"></div>
-        <video class="masthead__bg-video" autoplay loop muted poster="/add-poster.jpg">
+        <video class="masthead__bg-video" autoplay loop muted poster="/assets/img/home/poster-masthead.jpg">
             <source src="/assets/video/masthead-video-bg.mp4" type="video/mp4">
         </video>
     </div>
@@ -266,6 +359,122 @@
       </section>      
       <!-- WEARABLE TECHNOLOGY - END -->
 
+      <!-- DIGITAL TWIN - START -->
+<section id="expertise-demand" class="expertise-demand mobile:padding-y-8 tablet:padding-y-10 desktop-lg:padding-y-15">
+    <div class="grid-container">
+        <div class="grid-row grid-gap flex-align-center">
+            <div class="grid-row grid-gap mobile:margin-bottom-4 tablet-lg:margin-bottom-8">
+                <div class="tablet-lg:grid-col-10 tablet-lg:grid-offset-1 text-center">
+                    <div class="vha-video">
+                        <a href="https://res.cloudinary.com/dx6xvcbwl/video/upload/v1687912541/wbd/vha-ncchi/drone-digital-twin_ef2rci.mp4" class="vha-video__play vha-video__play-action stretched-link">
+                            <svg viewBox="0 0 46 46" fill="none" class="vha-video__play-icon">
+                                <path d="M23 0C10.2975 0 0 10.2971 0 23C0 35.7029 10.2975 46 23 46C35.7025 46 46 35.7029 46 23C46 10.2971 35.7025 0 23 0ZM19.534 14.0944C20.2076 13.7011 21.1 13.6666 21.9096 14.2094L30.3324 19.8927C32.7858 21.6913 32.859 24.242 30.3324 26.0935L21.9096 31.7768C20.2904 32.8624 18.4001 31.7515 18.4001 29.7091V16.2748C18.4001 15.2559 18.8601 14.4877 19.534 14.0944Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <div class="vha-video__poster">
+                            <img src="/assets/img/home/poster-dron-digital-twin.jpg" class="radius-lg" />
+                        </div>
+                    </div>  
+                </div>                        
+            </div>                        
+            <div class="grid-row grid-gap">
+                <div class="tablet-lg:grid-col-8 tablet-lg:grid-offset-2 text-center">
+                    <h2 class="margin-bottom-0">Digital Twin</h1>
+                </div>                        
+                <div class="grid-col-12 tablet-lg:grid-col-8 tablet-lg:grid-offset-2 text-left">
+                    <p>(NCCHI) is utilizing drone technology to create a digital twin of the VA Palo Alto healthcare system. The digital twin is a virtual replica of the physical environment, which can be used to simulate various scenarios and predict outcomes. The drones capture high-resolution images and data, which is processed using advanced analytics and machine learning algorithms. This enables the VA Palo Alto healthcare system to improve patient care, optimize resource utilization, and enhance operational efficiency. For example, the digital twin can be used to identify potential safety hazards, plan and test emergency response procedures, and optimize the layout of facilities. Overall, the use of drone technology and the creation of a digital twin has the potential to transform the way healthcare systems operate, and NCCHI is at the forefront of this innovation.</p>           
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- DIGITAL TWIN - END -->
+
+      <!-- EXPERTISE DEMAND - START -->
+<section id="expertise-demand" class="expertise-demand mobile:padding-y-8 tablet:padding-y-10 desktop-lg:padding-y-15">
+    <div class="grid-container">
+        <div class="grid-row grid-gap mobile:margin-bottom-6 tablet-lg:margin-bottom-8">
+            <div class="tablet-lg:grid-col-8 tablet-lg:grid-offset-2 text-center">
+                <span class="h3 heading-subtitle">5G Healthcare Revolution</span>
+                <h1 class="margin-top-0">Expertise on Demand</h1>
+                <p>5G is advanced telecom tech that handles more data, faster, with better performance. It improves healthcare, collaboration, and patient care. NCCHI leads "Project Convergence" with Verizon, Microsoft, and Medivis for Veterans.</p>
+            </div>                        
+        </div>
+
+        <!-- AR and VR for Clinical Training - START-->
+        <div class="grid-row grid-gap flex-align-center mobile:margin-bottom-6 tablet-lg:margin-bottom-8">
+            <div class="tablet-lg:grid-col-6 clinical-training__video">
+                <div class="vha-video">
+                    <a href="https://res.cloudinary.com/dx6xvcbwl/video/upload/v1687907439/wbd/vha-ncchi/video-clinical-training-720p_guvgnp.mp4" class="vha-video__play vha-video__play-action stretched-link">
+                        <svg viewBox="0 0 46 46" fill="none" class="vha-video__play-icon">
+                            <path d="M23 0C10.2975 0 0 10.2971 0 23C0 35.7029 10.2975 46 23 46C35.7025 46 46 35.7029 46 23C46 10.2971 35.7025 0 23 0ZM19.534 14.0944C20.2076 13.7011 21.1 13.6666 21.9096 14.2094L30.3324 19.8927C32.7858 21.6913 32.859 24.242 30.3324 26.0935L21.9096 31.7768C20.2904 32.8624 18.4001 31.7515 18.4001 29.7091V16.2748C18.4001 15.2559 18.8601 14.4877 19.534 14.0944Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <div class="vha-video__poster">
+                        <img src="/assets/img/home/poster-clinical-training.jpg" class="radius-lg" />
+                    </div>
+                </div>                
+            </div>
+            <div class="tablet-lg:grid-col-6 widescreen:grid-col-5 widescreen:grid-offset-1 clinical-training__content">
+                <span class="usa-tag">Training</span>
+                <h2 class="margin-top-1">AR and VR for Clinical Training</h1>
+                <p>5G + augmented reality enables interactive virtual teaching & training. Remote groups learn and share medical insights. Dynamic 3D holographic anatomy models enhance virtual procedures. NCCHI has projects to improve medical training for students and professionals.</p>           
+            </div>
+        </div>
+        <!-- AR and VR for Clinical Training - END-->
+
+        <!-- AR for Procedural Guidance - START-->
+        <div class="grid-row grid-gap flex-align-center mobile:margin-bottom-6 tablet-lg:margin-bottom-8">
+            <div class="tablet-lg:grid-col-6 widescreen:grid-col-5 procedural-guidance__content">
+                <span class="usa-tag">Guidance</span>
+                <h2 class="margin-top-1">AR for Procedural Guidance</h1>
+                <p>3D holograms of patient scans offer virtual X-ray vision, revolutionizing surgeries. 5G's low latency enhances visual awareness for precise procedures. NCCHI and collaborators optimize this transformational tech for enhanced Veteran surgeries.</p>           
+            </div>
+            <div class="tablet-lg:grid-col-6 widescreen:grid-offset-1 procedural-guidance__video">
+                <div class="vha-video">
+                    <a href="https://res.cloudinary.com/dx6xvcbwl/video/upload/v1687907710/wbd/vha-ncchi/video-procedural-guidance-720p_nig51m.mp4" class="vha-video__play vha-video__play-action stretched-link">
+                        <svg viewBox="0 0 46 46" fill="none" class="vha-video__play-icon">
+                            <path d="M23 0C10.2975 0 0 10.2971 0 23C0 35.7029 10.2975 46 23 46C35.7025 46 46 35.7029 46 23C46 10.2971 35.7025 0 23 0ZM19.534 14.0944C20.2076 13.7011 21.1 13.6666 21.9096 14.2094L30.3324 19.8927C32.7858 21.6913 32.859 24.242 30.3324 26.0935L21.9096 31.7768C20.2904 32.8624 18.4001 31.7515 18.4001 29.7091V16.2748C18.4001 15.2559 18.8601 14.4877 19.534 14.0944Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <div class="vha-video__poster">
+                        <img src="/assets/img/home/poster-procedural-guidance.jpg" class="radius-lg" />
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <!-- AR for Procedural Guidance - END-->    
+        
+        <!-- AR for Pre-Surgical Planning - START-->
+        <div class="grid-row grid-gap flex-align-center">
+            <div class="grid-row grid-gap mobile:margin-bottom-0 tablet-lg:margin-bottom-4 pre-surgical-planning__content">
+                <div class="tablet-lg:grid-col-8 tablet-lg:grid-offset-2 text-center">
+                    <span class="usa-tag">Planning</span>
+                    <h2 class="margin-top-1">AR for Pre-Surgical Planning</h1>
+                    <p>5G + AR transforms diagnostic scans into interactive 3D models for optimized surgical approaches. NCCHI develops tools with industry partners for smaller incisions, faster recovery, and improved safety/outcomes.</p>           
+                </div>                        
+            </div>
+            <div class="grid-row grid-gap">
+                <div class="tablet-lg:grid-col-10 tablet-lg:grid-offset-1 text-center pre-surgical-planning__video">
+                    <div class="vha-video">
+                        <a href="https://res.cloudinary.com/dx6xvcbwl/video/upload/v1687907426/wbd/vha-ncchi/video-surgical-planning-720_adu3oq.mp4" class="vha-video__play vha-video__play-action stretched-link">
+                            <svg viewBox="0 0 46 46" fill="none" class="vha-video__play-icon">
+                                <path d="M23 0C10.2975 0 0 10.2971 0 23C0 35.7029 10.2975 46 23 46C35.7025 46 46 35.7029 46 23C46 10.2971 35.7025 0 23 0ZM19.534 14.0944C20.2076 13.7011 21.1 13.6666 21.9096 14.2094L30.3324 19.8927C32.7858 21.6913 32.859 24.242 30.3324 26.0935L21.9096 31.7768C20.2904 32.8624 18.4001 31.7515 18.4001 29.7091V16.2748C18.4001 15.2559 18.8601 14.4877 19.534 14.0944Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <div class="vha-video__poster">
+                            <img src="/assets/img/home/poster-surgical-planning.jpg" class="radius-lg" />
+                        </div>
+                    </div>  
+                </div>                        
+            </div>                        
+        </div>
+        <!-- AR for Pre-Surgical Planning - END-->
+
+    </div>
+</section>
+<!-- EXPERTISE DEMAND - END -->
+      
       <!-- VIRTUAL TELEPORTATION - START -->
 <section id="virtual-teleportation" class="virtual-teleportation mobile:padding-y-8 tablet:padding-y-10 desktop-lg:padding-y-15">
     <div class="grid-container">
@@ -383,7 +592,7 @@
 </section>
 <!-- PUBLICATIONS - END -->
 
-      <!-- AWARDS - START -->
+<!-- AWARDS - START -->
 <section id="" class="mobile:padding-y-8 tablet:padding-y-10 desktop-lg:padding-y-15">
     <div class="grid-container">
         <div class="grid-row grid-gap">
@@ -408,6 +617,116 @@
     </div>
 </section>
 <!-- AWARDS - END -->
+=======
+      <!-- OUR TEAM - START -->
+<section id="our-team" class="our-team mobile:padding-y-8 tablet:padding-y-10 desktop-lg:padding-y-15">
+  <div class="grid-container">
+     <div class="grid-row grid-gap">
+        <div class="grid-col-12 text-center">
+           <h1 class="margin-top-0">Our Team</h1>
+        </div>
+     </div>
+     <div class="grid-row grid-gap">
+        <div class="grid-col-12 tablet:grid-col-4 text-center">
+           <div class="our-team__item">
+              <div class="our-team__item-img ">
+                 <img src="/assets/img/home/team-osborne.png" alt="Thomas Osborne, M.D. - Director" />
+              </div>
+              <h3>Thomas Osborne, M.D.</h3>
+              <h4>Director</h4>
+           </div>
+        </div>
+        <div class="grid-col-12 tablet:grid-col-4 text-center">
+           <div class="our-team__item">
+              <div class="our-team__item-img ">
+                 <img src="/assets/img/home/team-arreola.png" alt="Thomas Osborne, M.D. - Director" />
+              </div>
+              <h3>David Arreola, MCSE</h3>
+              <h4>Deputy Director of Operations</h4>
+           </div>
+        </div>
+        <div class="grid-col-12 tablet:grid-col-4 text-center">
+           <div class="our-team__item">
+              <div class="our-team__item-img ">
+                 <img src="/assets/img/home/team-veigulis.png" alt="Thomas Osborne, M.D. - Director" />
+              </div>
+              <h3>Zachary Veigulis, MS</h3>
+              <h4>Chief Data Scientist</h4>
+           </div>
+        </div>
+     </div>
+     <div class="grid-row grid-gap">
+        <div class="mobile:grid-col-12 tablet:grid-col text-center">
+           <div class="our-team__item">
+              <div class="our-team__item-img ">
+                 <img src="/assets/img/home/team-pham.png" alt="Thomas Osborne, M.D. - Director" />
+              </div>
+              <h3>Linh Pham</h3>
+              <h4>Administrative Officer</h4>
+           </div>
+        </div>
+        <div class="mobile:grid-col-12 tablet:grid-col text-center">
+           <div class="our-team__item">
+              <div class="our-team__item-img ">
+                 <img src="/assets/img/home/team-vrublevskiy.png" alt="Thomas Osborne, M.D. - Director" />
+              </div>
+              <h3>Ilya Vrublevskiy</h3>
+              <h4>Project Manager</h4>
+           </div>
+        </div>
+        <div class="grid-col-12 tablet:grid-col-4 text-center">
+           <div class="our-team__item">
+              <div class="our-team__item-img ">
+                 <img src="/assets/img/home/team-ware.png" alt="Thomas Osborne, M.D. - Director" />
+              </div>
+              <h3>Anna Ware, MPH</h3>
+              <h4>Healthcare Data Scientist</h4>
+           </div>
+        </div>
+     </div>
+     <div class="grid-row grid-gap">
+        <div class="grid-col-12 tablet:grid-col-4 text-center">
+           <div class="our-team__item">
+              <div class="our-team__item-img ">
+                 <img src="/assets/img/home/team-blumke.png" alt="Thomas Osborne, M.D. - Director" />
+              </div>
+              <h3>Terri Blumke</h3>
+              <h4>Healthcare Data Scientist</h4>
+           </div>
+        </div>
+        <div class="grid-col-12 tablet:grid-col-4 text-center">
+           <div class="our-team__item">
+              <div class="our-team__item-img ">
+                 <img src="/assets/img/home/team-hoover.png" alt="Thomas Osborne, M.D. - Director" />
+              </div>
+              <h3>Peter Hoover</h3>
+              <h4>Healthcare Data Scientist</h4>
+           </div>
+        </div>
+        <div class="grid-col-12 tablet:grid-col-4 text-center">
+           <div class="our-team__item">
+              <div class="our-team__item-img ">
+                 <img src="/assets/img/home/team-salatin.png" alt="Thomas Osborne, M.D. - Director" />
+              </div>
+              <h3>Benjamin Salatin</h3>
+              <h4>Innovation Lab Manager</h4>
+           </div>
+        </div>
+     </div>
+     <div class="grid-row grid-gap">
+        <div class="grid-col-12 tablet:grid-col text-center">
+           <div class="our-team__item">
+              <div class="our-team__item-img ">
+                 <img src="/assets/img/home/team-higgins.png" alt="Thomas Osborne, M.D. - Director" />
+              </div>
+              <h3>Brian Higgins</h3>
+              <h4>Innovator</h4>
+           </div>
+        </div>
+     </div>
+  </div>
+</section>
+<!-- OUR TEAM - END -->      
 
     </main>
 
