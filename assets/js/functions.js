@@ -35,4 +35,23 @@ $(function () {
 });
 
 
+var plus = '/assets/uswds/img/usa-icons/expand_more-yellow.svg';
+var minus = '/assets/uswds/img/usa-icons/expand_less-yellow.svg';
+
+$('.usa-nav__primary li:nth-child(1)').on("click", function() {
+  if ($('.about-dropdown').attr('src') === plus) {
+    $('.about-dropdown').attr('src', minus);
+  } else {
+    $('.about-dropdown').attr('src', plus)
+  }
+});
+
+$('.usa-nav__primary li:nth-child(2)').on("click", function() {
+  if ($('.portfolio-dropdown').attr('src') === plus) {
+    $('.portfolio-dropdown').attr('src', minus);
+  } else {
+    $('.portfolio-dropdown').attr('src', plus)
+  }
+});
+
 

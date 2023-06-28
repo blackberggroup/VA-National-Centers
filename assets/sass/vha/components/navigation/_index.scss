@@ -9,8 +9,15 @@
     max-width: 26rem !important;
     position: absolute;
     top: 0rem;
-    right: 0;
+    right: 2%;
     font-size: .9rem;
+    z-index: 1;
+}
+
+@media screen and (max-width: 800px) {
+    .vcl-button {
+        display: none;
+    }
 }
 
 a.vcl-button .vcl-logo {
@@ -66,7 +73,7 @@ a.vcl-button .vcl-logo {
     background-position-y: center;
     background-size: auto auto;
     background-position: left 11px;
-    background-size: 32px auto;
+    background-size: 32px !important;
 }
 
 .vcl-chat {
@@ -75,7 +82,7 @@ a.vcl-button .vcl-logo {
     background-position-y: center;
     background-size: auto auto;
     background-position: left 11px;
-    background-size: 32px auto;
+    background-size: 32px auto !important;
 }
 
 .vcl-tty {
@@ -85,4 +92,44 @@ a.vcl-button .vcl-logo {
     background-size: auto auto;
     background-position: left 11px;
     background-size: 32px auto;
+}
+
+
+.usa-header--extended .usa-logo {
+    max-width: none;
+}
+
+
+.usa-banner__header-text {
+    color: #000;
+}
+
+.usa-banner__button-text {
+    color: #005ea2 !important;
+}
+
+.usa-banner__header-action {
+    color: #005ea2 !important;
+    font-size: .75rem !important;
+}
+
+.usa-banner__content {
+    color: #000;
+}
+
+.usa-banner__inner {
+    max-width: none;
+}
+
+.usa-nav__secondary {
+    bottom: 5em;
+}
+
+// menu toggle
+.usa-nav__primary .usa-accordion__button span {
+    padding-right: 0.5rem;
+}
+
+.about-dropdown, .portfolio-dropdown {
+    width: 15px
 }
