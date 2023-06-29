@@ -1,9 +1,11 @@
 @use "uswds-core" as *;
 
 .usa-logo__text {
-
+    font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    
     span {
         font-weight: 100;
+        font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     }
 }
 .usa-nav .usa-accordion {
