@@ -1,7 +1,8 @@
 @use "uswds-core" as *;
 
 .our-team {
-
+    position: relative;
+    
     &__item {
 
         @include at-media(mobile) {
