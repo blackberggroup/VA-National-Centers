@@ -50,10 +50,10 @@
     }
 
     .usa-nav__primary button {
-        color: #fff;
+        color: #565c65;
 
         &:hover {
-            color: #FEE685;
+            color: #005ea2;
         }
     }
 
@@ -64,6 +64,17 @@
 
     .usa-nav__submenu .usa-nav__submenu-item a {
         padding: 1rem;
+    }
+
+    @include at-media(desktop) {
+    
+        .usa-nav__primary button {
+            color: #fff;
+    
+            &:hover {
+                color: #FEE685;
+            }
+        }        
     }
 
 }
