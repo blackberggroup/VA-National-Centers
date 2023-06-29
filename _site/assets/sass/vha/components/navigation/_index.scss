@@ -9,7 +9,7 @@
     max-width: 26rem !important;
     position: absolute;
     top: 0rem;
-    right: 2%;
+    right: 1rem;
     font-size: .9rem;
     z-index: 1;
 }
@@ -125,11 +125,16 @@ a.vcl-button .vcl-logo {
     bottom: 5em;
 }
 
+.usa-modal__close:active, .usa-modal__close:hover {
+    color: #0e1d33;
+}
+
 // menu toggle
 .usa-nav__primary .usa-accordion__button span {
     padding-right: 0.5rem;
 }
 
 .about-dropdown, .portfolio-dropdown {
+ display: none;
     width: 15px
 }
