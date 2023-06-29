@@ -10,6 +10,11 @@ body.ncchi-interior {
         background-position: top center;
 }
 
+.site-wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
 section {
     position: relative;
     z-index: 1;

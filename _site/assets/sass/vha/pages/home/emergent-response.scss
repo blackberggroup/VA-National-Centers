@@ -7,32 +7,41 @@
         background-color: #{color("gray-80")};
     }
 
-    &__drone {
+    &__drone-desktop,
+    &__drone-mobile {
         position: absolute;
     }
 
     @include at-media(mobile) {
-        &__drone {
+        &__drone-desktop {
+            display: none;
+        }
+        &__drone-mobile {
+            display: block;
             bottom: -100px;
-            left: 25%;
+            left: 0;
             top: auto;
             right: auto;
             widtH: 350px;
-        }      
+        }   
     }
 
     @include at-media(tablet) {
-        &__drone {
+        &__drone-desktop {
+            display: block;
             bottom: -100px;
             left: 15%;
             top: auto;
             right: auto;
             widtH: 450px;
-        }      
+        }   
+        &__drone-mobile {
+            display: none;
+        }              
     }
     
     @include at-media(desktop) {
-        &__drone {
+        &__drone-desktop {
             bottom: auto;
             left: auto;
             top: -180px;
