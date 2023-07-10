@@ -8,17 +8,27 @@
         border-bottom: 1px solid #{color("gray-warm-80")};
     }
 
+    .item__category {
+        display: inline-block;
+        margin-bottom: .5rem;
+    }
+
     .item__title {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         display: block;
-        padding-bottom: 16px;
+        padding-bottom: .5rem;
     }    
 
     .item__authors {
-        font-size: .8rem;
+        font-size: 1rem;
         display: block;
-        padding-bottom: 32px;
+        padding-bottom: 1rem;
     }
+
+    .item__date {
+        display: block;
+        padding-bottom: .5rem;
+    }    
 
     .item__url {
         display: block;
