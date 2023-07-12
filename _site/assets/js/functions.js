@@ -108,6 +108,3 @@ $('.scroll').on('click',function(e) {
 		// window.location.hash = target;
 	});
 });
-
-
-jplist.init();
