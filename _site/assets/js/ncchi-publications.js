@@ -652,6 +652,7 @@ var data = {
 
 }
 
+
 data.data.forEach(pub => $('.publication-list__item-container').append("<div class='publication-list__item padding-y-6' data-type=" + pub.category + " data-jplist-item" + ">" + 
 "<span class='usa-tag item__category item__category--" + pub.category + "'>" + pub.category + "</span>" + 
 "<span class='item__title'>" + "<a href='"+ pub.url + "'>" + pub.title + "</a>" + "</span>" + 
