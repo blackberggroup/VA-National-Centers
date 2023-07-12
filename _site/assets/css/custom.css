@@ -83,3 +83,37 @@ a.vcl-button .vcl-logo {
     background-position: left 11px;
     background-size: 32px auto;
 }
+
+#publication-list .usa-button--secondary {
+    border: none !important;
+    border-radius: 2px;
+    font-size: 10px;
+    padding: 7px 12px 5px 12px;
+    margin: -1px auto 0 -2px;
+    outline: none;
+}
+
+#publication-list input:not([disabled]):focus {
+    outline: none;
+}
+
+#publication-list .container span.checkmark {
+    position: relative;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+#publication-list .container input:checked ~ span.checkmark {
+    background-color: #2196F3;
+}
+
+#publication-list .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
