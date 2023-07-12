@@ -245,12 +245,13 @@
         <div class="grid-container">
           <div class="grid-row grid-gap flex-row flex-align-top">
             
-            <div class="tablet-lg:grid-col-4 mobile:grid-col-12">
+            <div class="tablet-lg:grid-col-3 mobile:grid-col-12 tablet:padding-y-2 desktop-lg:padding-y-0 col1">
 
               <!-- textbox filter control w/ clear button-->
               <h4>Filter by keyword</h4>
-              <input
-                class="usa-checkbox__input"
+
+              <div class="usa-checkbox">
+                <input
                 data-jplist-control="textbox-filter"
                 data-group="group1"
                 data-name="my-filter-1"
@@ -259,15 +260,15 @@
                 type="text"
                 value=""
                 placeholder=""
-              />
+                />
+              </div>
                             
               <button type="button" id="category-clear-btn" class="usa-button--secondary">Clear</button>
 
               <!-- checkbox text filter control -->
               <h4>Filter by type</h4>
               
-              <label class="container">
-                <span class="checkmark"></span>
+              <label class="container usa-checkbox__label">
                 <input
                   class="usa-checkbox__input"
                   type="checkbox"
@@ -283,7 +284,6 @@
               <br />
 
               <label class="container">
-                <span class="checkmark"></span>
                 <input
                   class="usa-checkbox__input"
                   type="checkbox"
@@ -298,7 +298,6 @@
               <br />
 
               <label class="container">
-                <span class="checkmark"></span>
                 <input
                   class="usa-checkbox__input"
                   type="checkbox"
@@ -313,7 +312,6 @@
               <br />
 
               <label class="container">
-                <span class="checkmark"></span>
                 <input
                   class="usa-checkbox__input"
                   type="checkbox"
@@ -328,7 +326,6 @@
               <br />
 
               <label class="container">
-                <span class="checkmark"></span>
                 <input
                   class="usa-checkbox__input"
                   type="checkbox"
@@ -342,7 +339,7 @@
             
             </div>
 
-            <div class="tablet-lg:grid-col-8 mobile:grid-col-12">
+            <div class="tablet-lg:grid-col-9 mobile:grid-col-12 col2">
 
               <!-- content to filter -->
               <div class="publication-list__item-container" data-jplist-group="group1"></div> 
