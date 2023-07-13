@@ -109,3 +109,7 @@ a.vcl-button .vcl-logo {
 #publication-list .jplist-selected[type="checkbox"]:checked {
     accent-color: red !important;
 }
+
+#publication-list .no-result-found {
+    margin-top: 5%;
+}
