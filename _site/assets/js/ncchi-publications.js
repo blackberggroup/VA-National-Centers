@@ -2,6 +2,15 @@ var data = {
 
     "data": [
         {
+            "title": "Trends in heat related illness: Nationwide observational cohort at the US department of veteran affairs",
+            "organization": "The Journal of Climate Change and Health",
+            "category": "Article",
+            "author": "Thomas F. Osborne, Zachary P. Veigulis, Ambarish Vaidyanathan, David M. Arreola, Paul J. Schramm",
+            "date": "July–August 2023",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2667278223000561",
+            "meta": ""
+        },
+        {
             "title": "Effectiveness of COVID-19 treatment with nirmatrelvir-ritonavir or molnupiravir among U.S. Veterans: target trial emulation studies with one-month and six-month outcomes.",
             "organization": "Annals of Internal Medicine.",
             "category": "Publication",
@@ -660,4 +669,7 @@ data.data.forEach(pub => $('.publication-list__item-container').append("<div cla
 "<span class='item__date'>" + pub.date + "</span>" + 
 "<span class='item__publication'>" + pub.organization + "</span>" +
 "<span class='item__url'>" + pub.meta + "</span>" +
-"</div>"));
+"</div>")); 
+
+$(".publication-list__item-container span:empty" ).remove();
+
