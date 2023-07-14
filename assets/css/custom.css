@@ -91,6 +91,7 @@ a.vcl-button .vcl-logo {
     margin: 0 0 0 -4px;
     font-weight: 500;
     letter-spacing: .5px;
+    border-radius: 2px;
 }
 
 #publication-list button:not([disabled]):focus, input:not([disabled]):focus, select:not([disabled]):focus, textarea:not([disabled]):focus {
@@ -100,6 +101,22 @@ a.vcl-button .vcl-logo {
 
 #publication-list .col1 {
     padding-left: 1%;
+    margin-top: 3.5%;
+}
+
+#publication-list .usa-searchbox__input {
+    font-size: 12px;
+    padding: 5px 120px 1px 6px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #publication-list .usa-searchbox__input {
+        padding: 5px 20px 1px 6px;
+    }
+}
+
+#publication-list .usa-checkbox__label {
+    display: flex;
 }
 
 #publication-list .usa-checkbox__input[type="checkbox"] {
@@ -112,4 +129,49 @@ a.vcl-button .vcl-logo {
 
 #publication-list .no-result-found {
     margin-top: 5%;
+}
+
+#publication-list input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#publication-list input[type="checkbox"] {
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+    margin-right: 8px;
+}
+
+#publication-list input[type="checkbox"]:checked {
+    background-color: red;
+    border: none;
+}
+
+#publication-list input[type="checkbox"]::before {
+    width: 0.5em;
+    height: 0.5em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    
+    content: "";
+    background-color: #fff;
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+#publication-list input[type="checkbox"]:checked::before {
+    transform: scale(1);
+    background-color: #fff;
 }
