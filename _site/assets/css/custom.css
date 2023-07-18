@@ -116,6 +116,15 @@ a.vcl-button .vcl-logo {
     }
 }
 
+@media screen and (max-width: 767px){
+    #publication-list .usa-search__submit-text {
+        display: block !important;
+    }
+    #publication-list .usa-button--secondary {
+        max-width: 70px;
+    }
+}
+
 #publication-list .usa-checkbox__label {
     display: flex;
 }
@@ -176,3 +185,4 @@ a.vcl-button .vcl-logo {
     transform: scale(1);
     background-color: #fff;
 }
+
