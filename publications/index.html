@@ -249,8 +249,8 @@
 
               <!-- textbox filter control w/ clear button-->
               <div>
-                <input
-                class="usa-searchbox__input"
+                <!-- <input
+                class="usa-searchbox__input usa-search--big usa-search--small"
                 data-jplist-control="textbox-filter"
                 data-group="group1"
                 data-name="my-filter-1"
@@ -259,9 +259,28 @@
                 type="text"
                 value=""
                 placeholder="Search by keyword..."
-                />
+                /> -->
 
-                <button type="button" id="category-clear-btn" class="usa-button--secondary">Clear</button>
+                <section aria-label="Search component">
+                  <form class="usa-search" role="search">
+                    <label class="usa-sr-only" for="search-field">Search</label>
+                    <input 
+                      class="usa-searchbox__input" 
+                      type="text"
+                      data-jplist-control="textbox-filter"
+                      data-group="group1"
+                      data-name="my-filter-1"
+                      data-path=".item__title"
+                      data-clear-btn-id="category-clear-btn"
+                      value=""
+                      placeholder="Search by keyword..."
+                    />
+                    <button class="usa-button usa-button--secondary" type="button" id="category-clear-btn">
+                      <span class="usa-search__submit-text">Clear </span>
+                    </button>
+                  </form>
+                </section>
+
               </div>
 
               <!-- checkbox text filter control -->
