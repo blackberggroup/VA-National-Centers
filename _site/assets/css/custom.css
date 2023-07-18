@@ -187,5 +187,5 @@ a.vcl-button .vcl-logo {
 }
 
 #publication-list .filter--checkboxes-header {
-    margin-top: 12%; 
+    margin-top: 12% !important; 
 }
