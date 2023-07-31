@@ -11,6 +11,24 @@ var data = {
             "meta": ""
         },
         {
+            "title": "First Full Spectrum 5G Hospital at VA Palo Alto Health Care System Will Empower Unprecedented Care for Veterans",
+            "organization": "Verizon Sourcing LLC",
+            "category": "Article",
+            "author": "Geoffrey Basye",
+            "date": "July 24, 2023",
+            "url": "https://finance.yahoo.com/news/first-full-spectrum-5g-hospital-125300021.html?guce_referrer=aHR0cHM6Ly93d3cuYmluZy5jb20v&guce_referrer_sig=AQAAAAeOOcPPSmtoDtxwFJaVCpFPU_bfHauYHV7gdciM-UgHDlJrlZB0sBOrk9Du1RySYOQbn3X-w3IsuTI4Ejc81DIj4jCUUib3tI47t09u7ri8wCZrNGa0yeIJeyjcvskaYS41dZr_miUDpvh2-09gzRwTQ5Tz20tj0btBMzjGvLS2&guccounter=2",
+            "meta": ""
+        },
+        {
+            "title": "Assessment of a wearable fall prevention system at a veterans health administration hospital",
+            "organization": "Sage Journals",
+            "category": "Article",
+            "author": "Thomas F. Osborne, Zachary P. Veigulis, Angela Gant-Curtis",
+            "date": "July 18, 2023",
+            "url": "https://journals.sagepub.com/doi/10.1177/20552076231187727",
+            "meta": ""
+        },      
+        {
             "title": "Effectiveness of COVID-19 treatment with nirmatrelvir-ritonavir or molnupiravir among U.S. Veterans: target trial emulation studies with one-month and six-month outcomes.",
             "organization": "Annals of Internal Medicine.",
             "category": "Publication",
@@ -656,7 +674,7 @@ var data = {
             "date": "August 20, 2019",
             "url": "https://www.research.va.gov/currents/0819-VA-DeepMind-partnership-reports-on-technology-for-early-detection-of-kidney-condition.cfm",
             "meta": ""
-        }                                                                                                                                   
+        }                                  
     ]
 
 }
