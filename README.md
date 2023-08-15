@@ -1,5 +1,5 @@
 # VA-NCCHI-beta
-Azure link: https://polite-smoke-0f3014810-59.centralus.3.azurestaticapps.net/publications/
+Azure link: https://polite-smoke-0f3014810-59.centralus.3.azurestaticapps.net
 
 ## Description
 National Center for Collaborative Healthcare Innovation website repo.
