@@ -1,0 +1,39 @@
+#bios-list {
+    background: #171716;
+  }
+  
+  .bio__title {
+    color: #A9AEB1;
+  }
+  
+  .bio-rows:nth-child(even) {
+    flex-flow: row-reverse;
+  }
+  
+  .bios-list__item > h3.bio__title {
+    margin-top: .5rem;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .bios-list__img {
+      text-align: center;
+    }
+  
+    .bio-rows:nth-child(even) {
+      flex-flow: column;
+    }
+  
+    .bios-list__item {
+      h3 {
+        text-align: center;
+      }
+  
+      padding-left: 0;
+      padding-right: 0;
+  
+      > h3 {
+        margin-top: 1rem;
+      }
+    }
+  }
+  
