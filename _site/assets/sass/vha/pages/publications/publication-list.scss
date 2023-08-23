@@ -1,40 +1,155 @@
 @use "uswds-core" as *;
 
 .publication-list {
+  background-color: #171716;
+}
 
-    background-color: #171716;
+.publication-list__item {
+  border-bottom: 1px solid color("gray-warm-80");
+}
 
-    &__item {
-        border-bottom: 1px solid #{color("gray-warm-80")};
+.publication-list {
+  .item__category {
+    display: inline-block;
+    margin-bottom: .5rem;
+  }
+
+  .item__title {
+    font-size: 1.4rem;
+    display: block;
+    padding-bottom: .5rem;
+  }
+
+  .item__authors {
+    font-size: 1rem;
+    display: block;
+    padding-bottom: 1rem;
+  }
+
+  .item__date {
+    display: block;
+    padding-bottom: .5rem;
+  }
+
+  .item__url {
+    display: block;
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+#publication-list {
+  .usa-button--secondary {
+    border: none !important;
+    padding: 4px 12px 4px 12px;
+    font-size: 11px;
+    margin: 1px 0 0 0;
+    font-weight: 500;
+    letter-spacing: .5px;
+    border-radius: 2px;
+  }
+
+  button:not([disabled]):focus {
+    outline: none;
+    outline-offset: 0;
+  }
+}
+
+input:not([disabled]):focus, select:not([disabled]):focus, textarea:not([disabled]):focus {
+  outline: none;
+  outline-offset: 0;
+}
+
+#publication-list {
+  .col1 {
+    padding-left: 1%;
+    margin-top: 3.5%;
+  }
+
+  .usa-searchbox__input {
+    font-size: 12px;
+    width: 80%;
+    padding: 6px 5px 5px 5px;
+  }
+
+  .usa-checkbox__label {
+    display: flex;
+  }
+
+  .usa-checkbox__input[type="checkbox"] {
+    accent-color: transparent !important;
+  }
+
+  .jplist-selected[type="checkbox"]:checked {
+    accent-color: red !important;
+  }
+
+  .no-result-found {
+    margin-top: 5%;
+  }
+
+  input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+    margin-right: 8px;
+
+    &:checked {
+      background-color: red;
+      border: none;
     }
 
-    .item__category {
-        display: inline-block;
-        margin-bottom: .5rem;
+    &::before {
+      width: 0.5em;
+      height: 0.5em;
+      transform: scale(0);
+      transition: 120ms transform ease-in-out;
+      box-shadow: inset 1em 1em var(--form-control-color);
+      content: "";
+      background-color: #fff;
+      transform-origin: bottom left;
+      clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
     }
 
-    .item__title {
-        font-size: 1.4rem;
-        display: block;
-        padding-bottom: .5rem;
-    }    
+    &:checked::before {
+      transform: scale(1);
+      background-color: #fff;
+    }
+  }
 
-    .item__authors {
-        font-size: 1rem;
-        display: block;
-        padding-bottom: 1rem;
+  .filter--checkboxes-header {
+    margin-top: 12% !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #publication-list .usa-searchbox__input {
+    padding: 5px 20px 1px 6px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #publication-list {
+    .usa-search__submit-text {
+      display: block !important;
     }
 
-    .item__date {
-        display: block;
-        padding-bottom: .5rem;
-    }    
-
-    .item__url {
-        display: block;
+    .usa-button--secondary {
+      max-width: 70px;
     }
-
-    a {
-        color: #fff;
-    }
+  }
 }
