@@ -1,7 +1,7 @@
 @use "uswds-core" as *;
 
 .usa-header {
-    background-color: transparent;
+    background-color: #171716;
 
 }
 
@@ -35,16 +35,14 @@
     }
 }
 
-.usa-nav__submenu {
-    background-color: #171716 !important;
-}
+
 
 @include at-media(mobile) {    
     .usa-nav__primary button {
         color: #565c65;
 
         &:hover {
-            color: #000;
+            color: #005ea2;
         }
     }
 
@@ -69,7 +67,7 @@
         color: #565c65;
 
         &:hover {
-            color: #000;
+            color: #005ea2;
         }
     }
 
@@ -82,10 +80,6 @@
         padding: 1rem;
     }
 
-}
-
-.usa-nav__primary button[aria-expanded=false]:hover span::after {
-    background-color: transparent !important;
 }
 
 @include at-media(desktop) {
@@ -107,7 +101,7 @@
 // subnav styles
 .smDiv {
     width: auto;
-    background: #171716 !important;
+    background: #0e1d33 !important;
     color: #fff !important;
     margin-left: 0%;
 
@@ -123,6 +117,16 @@
 nav .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    margin-top: 0px;
+    right: 10px;
+}
+
+nav .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    right: 20px;
+    margin-top: 4px;
 }
 
 nav .arrow {
@@ -130,13 +134,15 @@ nav .arrow {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-    margin-top: 0px;
-    right: 10px;
 }
 
 @include at-media(desktop) {
+    nav .usa-nav__submenu {
+        width: auto !important;
+    }
+
     nav .usa-nav__primary-item:hover {
-        background: #000;
+        background: #005ea2;
     }
 
     nav .usa-nav__primary button:hover{
@@ -180,6 +186,13 @@ nav .arrow {
         left: 224px;
     }
 
+    nav .right {
+        position: relative;
+        margin-top: 0px;
+        margin-left: 10px;
+        right: auto;
+    }
+
     .smDiv {
         width: 300px;
         margin-left: 100%;
@@ -188,7 +201,7 @@ nav .arrow {
 
         li, a {
             background: #fff !important;
-            color: #171716 !important;
+            color: #0e1d33 !important;
         }
     }
 }
