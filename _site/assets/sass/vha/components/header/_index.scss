@@ -1,5 +1,17 @@
 @use "uswds-core" as *;
 
+.usa-header {
+    background-color: transparent;
+
+}
+
+.usa-logo {
+    a {
+        color: #fff;
+    }
+
+}
+
 .usa-logo__text {
     font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     
@@ -15,22 +27,24 @@
     color: #fff;
 
     &:hover {
-        color: #FEE685;
+        color: #FFF;
     }
 
     &:focus {
-        outline: 0.25rem solid #face00;
+        outline: none;
     }
 }
 
-
+.usa-nav__submenu {
+    background-color: #171716 !important;
+}
 
 @include at-media(mobile) {    
     .usa-nav__primary button {
         color: #565c65;
 
         &:hover {
-            color: #005ea2;
+            color: #000;
         }
     }
 
@@ -47,7 +61,7 @@
         color: #fff;
 
         &:hover {
-            color: #FEE685;
+            color: #FFF;
         }
     }
 
@@ -55,19 +69,23 @@
         color: #565c65;
 
         &:hover {
-            color: #005ea2;
+            color: #000;
         }
     }
 
     .usa-header--extended .usa-nav__primary-item>.usa-current::after, 
     .usa-header--extended .usa-nav__primary-item>.usa-nav__link:hover::after {
-        background-color: #FEE685;   
+        background-color: none;   
     }
 
     .usa-nav__submenu .usa-nav__submenu-item a {
         padding: 1rem;
     }
 
+}
+
+.usa-nav__primary button[aria-expanded=false]:hover span::after {
+    background-color: transparent !important;
 }
 
 @include at-media(desktop) {
@@ -84,4 +102,93 @@
         font-size: 2rem;
         margin: 1rem 0 1.5rem 0rem;
     }        
+}
+
+// subnav styles
+.smDiv {
+    width: auto;
+    background: #171716 !important;
+    color: #fff !important;
+    margin-left: 0%;
+
+    li, a {
+        color: #fff !important;
+    }
+
+    li:hover, a:hover {
+        color: #565c65 !important;
+    }
+}
+
+nav .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+nav .arrow {
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 0px;
+    right: 10px;
+}
+
+@include at-media(desktop) {
+    nav .usa-nav__primary-item:hover {
+        background: #000;
+    }
+
+    nav .usa-nav__primary button:hover{
+        color:#fff !important;
+        border: none !important;
+    }
+
+    nav .usa-nav__primary > .usa-nav__primary-item > a:hover {
+        color: #fff;
+    }
+
+    nav .arrow {
+        border: solid #fff;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        margin-top: -2px;
+        right: auto;
+    }
+
+    nav .arrow:hover {
+        border: solid #fff;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        margin-top: -2px;
+    }
+
+    nav .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+    nav .arrow.down.one {
+        top: 19px;
+        left: 80px;
+    }
+
+    nav .arrow.down.two {
+        top: 19px;
+        left: 224px;
+    }
+
+    .smDiv {
+        width: 300px;
+        margin-left: 100%;
+        position: absolute;
+        top: 0;
+
+        li, a {
+            background: #fff !important;
+            color: #171716 !important;
+        }
+    }
 }
