@@ -23,13 +23,6 @@ var data = {
             "description": "Zach Veigulis is the Chief Data Scientist at the VA" + "&#8217;" + "s National Center for Collaborative Healthcare Innovation (NCCHI). His work in advanced healthcare analytics has resulted in several peer-reviewed publications in the translational medicine space. This includes work in using electronic health record data to predict disease progression, such as identifying patients at highest risk of poor outcomes for COVID-19, which led to national and international media coverage. His particular areas of expertise and interest include utilizing predictive analytics (including, but not limited to, machine learning and deep learning) to identify and improve outcomes for vulnerablepatient populations. Zach also holds an academic appointment at The University of Iowa where he teaches Data Science within the Analytics Masters program within the Tippie College of Business."
         },
         {
-            "name": "Linh Pham",
-            "id": "Linh-Pham",
-            "title": "Administrative Officer",
-            "img": "../assets/img/home/team-pham.png",
-            "description": "Linh Pham is a dynamic and accomplished Administrative Officer (AO) at the forefront of the National Center for Collaborative Healthcare Innovation (NCCHI), bringing over 20 years of administrative and leadership experience, with the last 16 years dedicated to VA. She is known for her inspiring leadership and unique approach to problem-solving, consistently seeking creative solutions that cater to individual needs and contribute to their success. Linh" + "&#8217;" + "s passion for collaboration and connecting with others makes her a valuable asset in team environments, where she believes collective efforts drive positive change. Her pivotal role in developing VHA" + "&#8217;" + "s first AO Academy at the VA Palo Alto Health Care System underscores her dedication to advancing healthcare administration and nurturing future leaders in the field. With an unwavering commitment to excellence, Linh is determined to make a lasting impact on NCCHI" + "&#8217;" + "s success and drive transformative change within the healthcare industry."
-        },
-        {
             "name": "Ilya Vrublevskiy, PMP",
             "id": "Ilya-Vrublevskiy",
             "title": "Technical Project Manager",
@@ -56,13 +49,6 @@ var data = {
             "title": "Healthcare Data Scientist",
             "img": "../assets/img/home/team-hoover.png",
             "description": "Peter Hoover, MS, is a Healthcare Data Scientist at the VA Palo Alto Health Care System" + "&#8217;" + "s National Center for Collaborative Healthcare Innovation (NCCHI). Within the past decade, he has supported the federal sector in the advancement of military and Veteran healthcare research. Mr. Hoover" + "&#8217;" + "s expertise lies in leveraging advanced analytical techniques to assess patterns of healthcare utilization and cost within both active-duty and Veteran populations, predicting negative patient outcomes, and evaluating treatment efficacy. As part of the 2019 FedHealthIT Innovation Award recipient team, Mr. Hoover has supported the development and implementation of clinical applications, ensuring cohesive and integrated healthcare services for these patients. Peter works remotely in Washington, DC, where, in his free time, tends to his ever-expanding houseplant collection."
-        },
-        {
-            "name": "Benjamin Salatin, MS",
-            "id": "Benjamin-Salatin",
-            "title": "Mechanical Engineer",
-            "img": "../assets/img/home/team-salatin.png",
-            "description": "Ben comes from a mechanical engineering background with an MS in rehabilitation engineering. Now at his 3rd VA hospital, Ben started his time in VA working alongside rehabilitation therapists in the clinic to help provide the best combination of assistive technology to Veterans, many times building customizations unique to a Veteran" + "&#8217;" + "s needs using 3D design & printing.  He then became an Innovation Specialist, supporting local staff projects and providing training as part of the VHA Innovators Network. His focus at NCCHI is on supporting projects through the use of advanced fabrication and extended reality technology. Ben is passionate about leveraging technology in new ways to solve VA healthcare challenges.  When not at the hospital, Ben enjoys biking, reading, exploring CA and visiting other countries."
         },
         {
             "name": "Brian Higgins",
