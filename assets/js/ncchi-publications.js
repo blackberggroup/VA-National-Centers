@@ -691,3 +691,5 @@ data.data.forEach(pub => $('.publication-list__item-container').append("<div cla
 
 $(".publication-list__item-container span:empty" ).remove();
 
+jplist.init();
+

@@ -1,38 +1,43 @@
-$('.vha-video__play-action').magnificPopup({
-    type: 'iframe', 
-    
-    iframe: {
-       markup: '<div class="mfp-iframe-scaler">'+
-                  '<div class="mfp-close"></div>'+
-                  '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
-                  '<div class="mfp-title">Some caption</div>'+
-                '</div>'
-    }
-});
+if ($('.vha-video__play-action').length > 0){
+	$('.vha-video__play-action').magnificPopup({
+		type: 'iframe', 
+		
+		iframe: {
+		markup: '<div class="mfp-iframe-scaler">'+
+					'<div class="mfp-close"></div>'+
+					'<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+					'<div class="mfp-title">Some caption</div>'+
+					'</div>'
+		}
+	});
+}
 
 
-$(function () {
-  $('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    responsiveClass: true,
-    responsive:{
-      0: {
-        items: 2,
-        nav: true
-      },
-      800: {
-        items: 3,
-        nav: false
-      },
-      1000: {
-        items: 6,
-        nav: true,
-        loop: true
+if ($('.owl-carousel').length > 0){
+  $(function () {
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      responsiveClass: true,
+      responsive:{
+        0: {
+          items: 2,
+          nav: true
+        },
+        800: {
+          items: 3,
+          nav: false
+        },
+        1000: {
+          items: 6,
+          nav: true,
+          loop: true
+        }
       }
-    }
+    });
   });
-});
+}
+
 
 var amountScrolled = 200;
 
@@ -55,6 +60,7 @@ $('.usa-nav__primary li:nth-child(2)').on("click", function() {
   }
 });
 
+
 $(window).scroll(function () {
 	'use strict';
 	if ($(window).scrollTop() > amountScrolled) {
@@ -66,6 +72,7 @@ $(window).scroll(function () {
 	}
 });
 
+
 $('.usa-footer-return-to-top a,.back-to-top, .topper').click(function () {
 	'use strict';
 	$('html, body').animate({
@@ -73,6 +80,7 @@ $('.usa-footer-return-to-top a,.back-to-top, .topper').click(function () {
 	}, 400);
 	return false;
 });
+
 
 $(".smooth-scroll").on('click', function (event) {
 	'use strict';
@@ -108,6 +116,3 @@ $('.scroll').on('click',function(e) {
 		// window.location.hash = target;
 	});
 });
-
-
-jplist.init();
