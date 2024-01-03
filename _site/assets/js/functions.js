@@ -116,3 +116,25 @@ $('.scroll').on('click',function(e) {
 		// window.location.hash = target;
 	});
 });
+
+
+// Accessibility functions for owl-carousel plugin
+$( document ).ready(function() {
+    if ($('.owl-dots button').length > 0) {
+		$('button.owl-dot.active').attr("aria-label", "current slide");
+		$('button.owl-dot').attr("aria-label", "next or previous slide indicator");
+	}
+
+	if ($('.button.owl-prev').length > 0) {
+		$('.button.owl-prev').attr("aria-label", "previous");
+	}
+	
+	
+	if ($('.button.owl-next').length > 0) {
+		$('.button.owl-next').attr("aria-label", "next");
+	}
+
+	if ($('.owl-nav button').length > 0) {
+		$(".owl-nav button").removeAttr("role");
+	}
+});
