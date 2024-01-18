@@ -2,6 +2,10 @@
 
 .publication-list {
   background-color: #171716;
+
+  h2.h4fs {
+    font-size: 1.125rem;
+  }
 }
 
 .publication-list__item {
@@ -133,6 +137,7 @@ input:not([disabled]):focus, select:not([disabled]):focus, textarea:not([disable
 
   .filter--checkboxes-header {
     margin-top: 12% !important;
+    margin-bottom: 7.5% !important;
   }
 }
 
