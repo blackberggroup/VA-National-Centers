@@ -62,7 +62,7 @@ var data = {
 }
 
 
-data.data.forEach(bio => $('.bios-list__item-container').append("<div class='grid-col-12 bio-rows grid-row flex-row'>" + "<div class='grid-col-12 tablet:grid-col-2 desktop:grid-col-2 bios-list__img'>" + "<img alt='" + bio.name + " " + bio.title + "' src='" + bio.img + "' />" + "</div>" + "<div class='grid-col-12 tablet:grid-col-10 desktop:grid-col-10 bios-list__item padding-x-4 padding-bottom-6'>" + "<h2 id='" + bio.id + "' class='margin-top-0 margin-bottom-0 h3fs'>" + bio.name + "</h2>" + "<h3 class='bio__title'>" + bio.title + "</h3>" + "<p>" + bio.description + "</span>" +  "</div></div>")); 
+data.data.forEach(bio => $('.bios-list__item-container').append("<div class='grid-col-12 bio-rows grid-row flex-row'>" + "<div class='grid-col-12 tablet:grid-col-2 desktop:grid-col-2 bios-list__img'>" + "<img alt='" + bio.name + " " + bio.title + "' src='" + bio.img + "' />" + "</div>" + "<div class='grid-col-12 tablet:grid-col-10 desktop:grid-col-10 bios-list__item padding-x-4 padding-bottom-6'>" + "<h2 id='" + bio.id + "' class='margin-top-0 margin-bottom-0 h3'>" + bio.name + "</h2>" + "<h3 class='bio__title'>" + bio.title + "</h3>" + "<p>" + bio.description + "</span>" +  "</div></div>")); 
 
 $(".bios-list__item-container p:empty" ).remove();
 $(".bios-list__item-container h3:empty" ).remove();
