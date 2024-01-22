@@ -375,7 +375,7 @@ var data = {
             "organization": "The Journal of Urology",
             "category": "Publication",
             "author": "Vilson F, Zhang B, I-Chun T, Brooks J, Osborne TF, Boya Z, Priyadip R, Leppert J. MP30-06",
-            "date": "September1, 2021",
+            "date": "September 1, 2021",
             "url": "https://www.auajournals.org/doi/abs/10.1097/JU.0000000000002027.06",
             "meta": "Part of ISSN: 1527-3792. Part of ISSN: 0022-5347. DOI: 10.1097/ju.0000000000002027.06"
         },
