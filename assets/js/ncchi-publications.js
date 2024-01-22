@@ -2,11 +2,236 @@ var data = {
 
     "data": [
         {
+            "title": "Rates, clinical characteristics, and use of ICD-10 code U09.9 for long COVID in the Veterans Health Administration",
+            "organization": "JAMA Network Open",
+            "category": "Article",
+            "author": "Wander PL, Baraff A, Fox A, Cho K, Maripuri M, Honerlaw JP […] Osborne TF, Ioannou GN",
+            "date": "December 8, 2023",
+            "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2812721",
+            "meta": ""
+        },
+        {
+            "title": "Mixed Reality Surgical Navigation System: Positional Accuracy Based on FDA Standard. Surgical Innovation",
+            "organization": "Sage Journals",
+            "category": "Article",
+            "author": "Morley C, Arreola D, Qian L, Lynn A, Veigulis Z, Osborne TF",
+            "date": "November 29, 2023",
+            "url": "https://journals.sagepub.com/doi/10.1177/15533506231217620",
+            "meta": ""
+        },
+        {
+            "title": "Real-world effectiveness of immune checkpoint inhibitors and BRAF/MEK inhibitors among Veteran cutaneous melanoma patients",
+            "organization": "Journal of the American Academy of Dermatology",
+            "category": "Article",
+            "author": "Kim DY, Sweater S, Huhmann L, Dizon, M, Ferguson J, Osborne, TF, Spence A, Ziad A, Fillmore B, Hartman R",
+            "date": "November 2, 2023",
+            "url": "https://www.jaad.org/article/S0190-9622(23)03089-X/fulltext",
+            "meta": ""
+        },
+        {
+            "title": "Effectiveness of nirmatrelvir-ritonavir against the development of post-COVID-19 conditions among U.S. Veterans: target trial emulation",
+            "organization": "Annals of Internal Medicine",
+            "category": "Article",
+            "author": "Ioannou G, Berry K, Rajeevan N, Li Y, Mutlik P, Yan L Bui D […] Osborne TF, Viglianti EM, Aslan M, Huang G, Bajema K",
+            "date": "October 31, 2023",
+            "url": "https://www.acpjournals.org/doi/10.7326/M23-1394",
+            "meta": ""
+        },
+        {
+            "title": "Risk of Suicide-Related Outcomes After SARS-COV-2 Infection: Results from a Nationwide Observational Matched Cohort of US Veterans",
+            "organization": "Journal of General Internal Medicine",
+            "category": "Article",
+            "author": "Hynes DM, Niederhausen M, Chen JI, Shahoumian T, Roweski M, Hickok A, Shepherd-Banigan M, […] Osborne TF, Bohnert A S-B",
+            "date": "October 26, 2023",
+            "url": "https://link.springer.com/article/10.1007/s11606-023-08440-9",
+            "meta": ""
+        },
+        {
+            "title": "An electronic health record cohort of Veterans with amyotrophic lateral sclerosis",
+            "organization": "Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration",
+            "category": "Article",
+            "author": "Reimer R, Gonçalves A, Soper B, Wilson J, Gryshuk A, Suárez P, Osborne TF, Grimes KV, Ray P",
+            "date": "August 9, 2023",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/21678421.2023.2239300",
+            "meta": ""
+        },
+        {
+            "title": "Wearable Fall Prevention System at the Veterans Health Administration. Digital Health",
+            "organization": "Digital Health",
+            "category": "Article",
+            "author": "Osborne TF, Veigulis ZP, Arreola DM, Vrublevskiy I, Suarez P, Curtin C, Schalch E, Cabot RC, Gant-Curtis A",
+            "date": "July 19, 2023",
+            "url": "https://journals.sagepub.com/doi/10.1177/20552076231187727",
+            "meta": ""
+        },
+        {
+            "title": "VA, VHA, Verizon partner to increase rural veterans' telehealth access",
+            "organization": "Healthcare IT News",
+            "category": "News Article",
+            "author": "",
+            "date": "November 09, 2023",
+            "url": "https://www.healthcareitnews.com/news/va-vha-verizon-partner-increase-rural-veterans-telehealth-access",
+            "meta": ""
+        },
+        {
+            "title": "Verizon Public Sector Teams Up With Dept. of Veterans Affairs to Provide Broadband for Veterans",
+            "organization": "Morningstar",
+            "category": "News Article",
+            "author": "",
+            "date": "November 07, 2023",
+            "url": "https://www.morningstar.com/news/globe-newswire/8973658/verizon-public-sector-teams-up-with-dept-of-veterans-affairs-to-provide-broadband-for-veterans",
+            "meta": ""
+        },
+        {
+            "title": "Verizon Public Sector Teams up with Dept. of Veterans Affairs to Provide Broadband for Veterans",
+            "organization": "Global News Wire",
+            "category": "Press Release",
+            "author": "",
+            "date": "November 07, 2023",
+            "url": "https://www.globenewswire.com/news-release/2023/11/07/2775030/0/en/Verizon-Public-Sector-Teams-Up-With-Dept-of-Veterans-Affairs-to-Provide-Broadband-for-Veterans.html",
+            "meta": ""
+        },
+        {
+            "title": "Heat-Related Illness Among Veterans Showing Nationwide Rise",
+            "organization": "US Medicine",
+            "category": "Interview",
+            "author": "",
+            "date": "October 14, 2023",
+            "url": "https://www.usmedicine.com/non-clinical-topics/homeless/heat-related-illness-among-veterans-showing-nationwide-rise/",
+            "meta": ""
+        },
+        {
+            "title": "Project Convergence: Harnessing Tomorrow's Innovations for Veteran Health Care Today",
+            "organization": "Take Your 20 For Veteran Health",
+            "category": "Interview",
+            "author": "",
+            "date": "October 12, 2023",
+            "url": "https://players.brightcove.net/2851863979001/rk9qkVDyf_default/index.html?videoId=6338939251112",
+            "meta": ""
+        },
+        {
+            "title": "Climate and Health Outlook: Heat-Related Illness Increasing Among Veterans",
+            "organization": "Health and Human Services (HHS): Office of Climate Change and Health Equity (OASH)",
+            "category": "News Article",
+            "author": "",
+            "date": "October 5, 2023",
+            "url": "https://www.hhs.gov/sites/default/files/climate-health-outlook-october-2023.pdf",
+            "meta": ""
+        },
+        {
+            "title": "Summer may have ended, but VA hopes to stay on top of the increase in heat-related illnesses",
+            "organization": "Federal News Network",
+            "category": "Interview",
+            "author": "",
+            "date": "October 3, 2023",
+            "url": "https://federalnewsnetwork.com/veterans-affairs/2023/10/summer-may-have-ended-but-va-hopes-to-stay-on-top-of-the-increase-in-heat-related-illnesses/",
+            "meta": ""
+        },
+        {
+            "title": "Emerging Technology: IoT Sensors: Data at Scale",
+            "organization": "American Council for Technology-Industry Advisory Council (ACT-IAC)",
+            "category": "Interview",
+            "author": "",
+            "date": "September 21, 2023",
+            "url": "https://www.youtube.com/watch?v=q3s4sopRPeo",
+            "meta": ""
+        },
+        {
+            "title": "VA Hospitals See Steep, Steady Rise in Heat-Related Illnesses",
+            "organization": "US News and World Reports",
+            "category": "News Article, Interview",
+            "author": "",
+            "date": "September 6, 2023",
+            "url": "https://www.usnews.com/news/health-news/articles/2023-09-06/va-hospitals-see-steep-steady-rise-in-heat-related-illnesses",
+            "meta": ""
+        },
+        {
+            "title": "Trends in heat-related illnesses among Veterans; Assessing how climate change impacts Veteran health",
+            "organization": "VA News",
+            "category": "News Article, Interview",
+            "author": "",
+            "date": "September 2, 2023",
+            "url": "https://news.va.gov/123129/trends-in-heat-related-illnesses-among-veterans/",
+            "meta": ""
+        },
+        {
+            "title": "Heat-Related Illness Increasing in the United States",
+            "organization": "HealthDay",
+            "category": "News Article, Interview",
+            "author": "",
+            "date": "August 28, 2023",
+            "url": "https://consumer.healthday.com/heat-physician-s-briefing-2664327699.html",
+            "meta": ""
+        },
+        {
+            "title": "Heat related illnesses dramatically on the rise among US Veterans",
+            "organization": "The American Association for the Advancement of Science (AAAS)",
+            "category": "News Article, Interview",
+            "author": "",
+            "date": "August 24, 2023",
+            "url": "https://www.eurekalert.org/news-releases/999246",
+            "meta": ""
+        },
+        {
+            "title": "Augmented Reality Takes Agencies to Unexpected Places",
+            "organization": "FedTech Magazine",
+            "category": "News Article, Interview",
+            "author": "",
+            "date": "August 14, 2023",
+            "url": "https://fedtechmagazine.com/article/2023/08/augmented-reality-takes-agencies-unexpected-places",
+            "meta": ""
+        },
+        {
+            "title": "VA Deploys Verizon Private 5G Network to Advance Patient Care",
+            "organization": "EHR Intelligence",
+            "category": "News Article, Interview",
+            "author": "",
+            "date": "July 26, 2023",
+            "url": "https://ehrintelligence.com/news/va-deploys-verizon-private-5g-network-to-advance-patient-care",
+            "meta": ""
+        },
+        {
+            "title": "First Full Spectrum 5G Hospital at VA Palo Alto Health Care System Will Empower Unprecedented Care for Veterans",
+            "organization": "Yahoo! Finance",
+            "category": "News Article, Interview",
+            "author": "",
+            "date": "July 24, 2023",
+            "url": "https://finance.yahoo.com/news/first-full-spectrum-5g-hospital-125300021.html",
+            "meta": ""
+        },
+        {
+            "title": "5G hospital at VA Palo Alto Health Care System will empower unprecedented care for veterans",
+            "organization": "Verizon",
+            "category": "Press Release",
+            "author": "",
+            "date": "July 24, 2023",
+            "url": "https://www.verizon.com/about/news/5g-va-palo-alto-health-care-system-unprecedented-care-veterans",
+            "meta": ""
+        },
+        {
+            "title": "First in Axios: VA hospital goes fully 5G",
+            "organization": "Axios",
+            "category": "News Article, Interview",
+            "author": "",
+            "date": "July 24, 2023",
+            "url": "https://www.axios.com/2023/07/24/va-hospital-fully-5g",
+            "meta": ""
+        },
+        {
+            "title": "Feds Optimizing 5G to Deploy New Comms Capabilities",
+            "organization": "MeriTalk",
+            "category": "News Article, Interview",
+            "author": "",
+            "date": "June 1, 2023",
+            "url": "https://www.meritalk.com/articles/feds-optimizing-5g-to-deploy-new-comms-capabilities/",
+            "meta": ""
+        },
+        {
             "title": "Trends in heat related illness: Nationwide observational cohort at the US department of veteran affairs",
             "organization": "The Journal of Climate Change and Health",
             "category": "Article",
             "author": "Thomas F. Osborne, Zachary P. Veigulis, Ambarish Vaidyanathan, David M. Arreola, Paul J. Schramm",
-            "date": "July–August 2023",
+            "date": "July 19, 2023",
             "url": "https://www.sciencedirect.com/science/article/pii/S2667278223000561",
             "meta": ""
         },
@@ -33,7 +258,7 @@ var data = {
             "organization": "Annals of Internal Medicine.",
             "category": "Publication",
             "author": "Bajema KL, Berry K, Streja E, Rajeevan N, [...] Osborne TF, Viglianti EM, Aslan M, Huang GD, Ioannou GN.",
-            "date": "June 2023",
+            "date": "June 6, 2023",
             "url": "https://www.acpjournals.org/doi/10.7326/M22-3565",
             "meta": "DOI: https://doi.org/10.7326/M22-3565"
         },
@@ -42,7 +267,7 @@ var data = {
             "organization": "BMJ",
             "category": "Publication",
             "author": "Amy Bohnert; Kyle Kumbier; Mazhgan Rowneki; Ashwin Gupta; Kristina Bajema; Denise M Hynes; Elizabeth Viglianti; Ann M O'Hare; Thomas Osborne; Edward J Boyko et al.",
-            "date": "March. 23, 2023",
+            "date": "March 23, 2023",
             "url": "https://doi.org/10.1136/bmj-2022-074521",
             "meta": "Part of ISSN: 1756-183. DOI: https://doi.org/10.1136/bmj-2022-074521"
         },
@@ -69,7 +294,7 @@ var data = {
             "organization": "JAMA Network Open",
             "category": "Publication",
             "author": "Bajema KL, Rowneki M, Berry K, Osborne TF, Bohnert A, O'Hare AM, Boyko EJ, Maciejewski ML, Bowling CB, Viglianti EM, Iwashyna TJ, Hynes DM, Ioannou GN.",
-            "date": "Feb 2, 2023",
+            "date": "February 2, 2023",
             "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2800897",
             "meta": "Part of ISSN: 2574-3805. DOI: 10.1001/jamanetworkopen.2022.54387"
         },
@@ -78,7 +303,7 @@ var data = {
             "organization": "MedRxiv",
             "category": "Publication",
             "author": "Bajema KL, Berry K, Streja E, Rajeevan N, [...] Osborne TF, Viglianti EM, Aslan M, Huang GD, Ioannou GN.",
-            "date": "Dec 7, 2022",
+            "date": "December 7, 2022",
             "url": "https://doi.org/10.1101/2022.12.05.22283134",
             "meta": "doi: https://doi.org/10.1101/2022.12.05.22283134"
         },  
@@ -87,7 +312,7 @@ var data = {
             "organization": "Frontiers in Digital Health",
             "category": "Publication",
             "author": "Coquet J, Zammit J, Hajouji QE, Humphreys K, Asch SM, Osborne TF, Curtin CM, Hernandez-Boussard T.",
-            "date": "Dec. 2022",
+            "date": "December 22, 2022",
             "url": "https://www.frontiersin.org/articles/10.3389/fdgth.2022.995497/full",
             "meta": "Part of ISSN: 2673-253X. DOI: 10.3389/fdgth.2022.995497"
         },                                                                            
@@ -101,11 +326,11 @@ var data = {
             "meta": ""
         },
         {
-            "title": "Geographic and temporal variation in racial and ethnic disparities in SARS‑CoV‑2 positivity between February 2020 and August 2021 in the United States.",
-            "organization": "Nature: Scientific Reports",
+            "title": "Geographic and temporal variation in racial and ethnic disparities in SARS-CoV-2 positivity between February 2020 and August 2021 in the United States.",
+            "organization": "Nature: Scientific Reports",
             "category": "Publication",
             "author": "Ferguson JM, Justice AC, Osborne TF, Magid HAS, Purnell AL, Rentsch CT.",
-            "date": "Jan. 7, 2022",
+            "date": "January 7, 2022",
             "url": "10.1038/s41598-021-03967-5",
             "meta": "Part of ISSN: 2045-2322. DOI: 10.1038/s41598-021-03967-5"
         },
@@ -141,16 +366,16 @@ var data = {
             "organization": "Fronters in VR",
             "category": "Publication",
             "author": "Rawlins C, Veigulis ZP, Hebert C, Curtin CM, Osborne TF",
-            "date": "Oct. 5, 2021",
+            "date": "October 5, 2021",
             "url": "https://www.frontiersin.org/articles/10.3389/frvir.2021.719681/full",
             "meta": "Part of ISSN: 2673-4192. DOI: 10.3389/frvir.2021.719681"
         },
         {
-            "title": "PSA Variability and the diagnosis of clinically significant prostate cancer",
+            "title": "MP30-06 PSA Variability and the diagnosis of clinically significant prostate cancer",
             "organization": "The Journal of Urology",
             "category": "Publication",
             "author": "Vilson F, Zhang B, I-Chun T, Brooks J, Osborne TF, Boya Z, Priyadip R, Leppert J. MP30-06",
-            "date": "Sept. 2021",
+            "date": "September 1, 2021",
             "url": "https://www.auajournals.org/doi/abs/10.1097/JU.0000000000002027.06",
             "meta": "Part of ISSN: 1527-3792. Part of ISSN: 0022-5347. DOI: 10.1097/ju.0000000000002027.06"
         },
@@ -230,7 +455,7 @@ var data = {
             "title": "Association of Mortality and Aspirin Prescription for COVID-19 Patients at the Veterans Health Administration",
             "organization": "medRxiv",
             "category": "Publication",
-            "author": "Osborne, TF, Veigulis ZP, Arreola, DM, Mahajan S, Röösli E, Curtin, CM",
+            "author": "Osborne TF, Veigulis ZP, Arreola, DM, Mahajan S, Röösli E, Curtin, CM",
             "date": "December 14, 2020",
             "url": "https://www.medrxiv.org/content/10.1101/2020.12.13.20248147v1",
             "meta": "DOI: 10.1101/2020.12.13.20248147"
@@ -249,7 +474,7 @@ var data = {
             "organization": "arXiv",
             "category": "Publication",
             "author": "D'Amour A, Heller K, Moldovan, D [...], Hou S, Mincu D, Nielson C, Osborne TF, Schrouff J, Seneviratne MG, Sculley D",
-            "date": "Nov. 6, 2020",
+            "date": "November 6, 2020",
             "url": "https://arxiv.org/abs/2011.03395",
             "meta": "arXiv:2011.03395v1"
         },
@@ -269,7 +494,7 @@ var data = {
             "author": "Osborne TF, Suarez P, Edwards D, Hernandez-Boussard T, Curtin C",
             "date": "April 1, 2020",
             "url": "https://pubmed.ncbi.nlm.nih.gov/33123663/",
-            "meta": "Part of ISSN: 2472-7245. DOI: 10.2106/JBJS.OA.19.00061"
+            "meta": "Part of ISSN: 2472-7245. DOI: 10.2106/JBJS.OA.19.00061"
         },
         {
             "title": "Predictive models for identifying risk of readmission after index hospitalization for hip arthroplasty: A systematic review",
@@ -347,7 +572,7 @@ var data = {
             "organization": "Federal News Network",
             "category": "Interview",
             "author": "",
-            "date": "Sept 28, 2022",
+            "date": "September 28, 2022",
             "url": "https://federalnewsnetwork.com/veterans-affairs/2022/09/5g-and-how-its-changing-the-way-they-think-at-the-va/",
             "meta": ""
         },  
