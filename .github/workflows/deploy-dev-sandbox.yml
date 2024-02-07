@@ -16,7 +16,7 @@ jobs:
         password: ${{ secrets.ftp_password }}
         port: 21
         local-dir: ./_site/
-        server-dir: develop-innovation.bgsandbox.com/va-ncchi/
+        server-dir: dev-innovation.bgsandbox.com/ecosystem/views/national-centers/ncchi/
         exclude: |
           **/.DS_Store
           **/.git*
