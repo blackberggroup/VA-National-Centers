@@ -4,9 +4,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <meta name="description" content="Located in Silicon Valley, the National Center for Collaborative Healthcare Innovation is translating complex technologies from the research bench to the clinical bedside.">
-  <meta name="keywords" content="National Center for Collaborative Healthcare Innovation, NCCHI">
-  <title>VHA - National Centers for Collaborative Healthcare Innovation</title>
+  <meta name="description" content="The National Center for Innovation 2 Impact Collaborating Across Industries to Improve Veteran Health Care">
+  <meta name="keywords" content="National Center for Innovation to Impact, NCI2I">
+  <title>VHA - The National Center for Innovation to Impact</title>
+
+  <meta property="og:title" content="((TITLE))">
+  <meta property="og:url" content="((URL))">
+  <meta property="og:description" content="((DESCRIPTION))">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="((OG:IMAGE URL))">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -17,46 +23,27 @@
   <script src="assets/uswds/js/uswds-init.min.js"></script>
 </head>
 
-<body class="ncchi-home style-ncchi">
+<body id="nci2i-body">
 
     <!-- SITE WRAPPER - START -->
     <div class="site-wrapper">
-    {% include "header.html" %}
-
-    <main>
+      {% include "header.html" %}
       
-      {% include "home/masthead.html" %}
+        <main>
+            <div style="height: 200px; text-align:center;">
+              <h1 style="padding-top: 50px;">The National Center for Innovation to Impact</h1>
+            </div>
+        </main>
 
-      {% include "home/mission-statement.html" %}
-
-      {% include "home/sensor-technology.html" %}
-
-      {% include "home/digital-twin.html" %}
-
-      {% include "home/expertise-demand.html" %}
-      
-      {% include "home/virtual-teleportation.html" %}
-
-      {% include "home/emergent-response.html" %}
-
-      {% include "home/publications.html" %}
-
-      {% include "home/our-team.html" %}    
-
-      {% include "home/awards.html" %}
-
-    </main>
-
-    {% include "footer.html" %}
+        {% include "footer.html" %}
 
     </div>
     <!-- SITE WRAPPER - END -->
 
     <script src="assets/uswds/js/uswds.min.js"></script>
-    <script src="assets/js/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/vendors/parallax-scroll/jquery.parallax-scroll.js"></script>
-    <script src="assets/js/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/js/vendors/lazy/jquery.lazy.min.js"></script>
     <script src="assets/js/functions.js"></script>
 
 </body>
+
 </html>
