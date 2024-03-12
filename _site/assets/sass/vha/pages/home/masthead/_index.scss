@@ -159,6 +159,12 @@
 
     }
 
+    @media (max-width:880px) and (min-width: 640px) {
+        .masthead__content {
+            padding-top: 9% !important;
+        }
+    }
+    
     .button-vha {
         font-size: 1rem;
         color: #000;
