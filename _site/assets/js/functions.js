@@ -14,28 +14,28 @@ if ($('.vha-video__play-action').length > 0){
 
 
 if ($('.owl-carousel').length > 0){
-  $(function () {
-    $('.owl-carousel').owlCarousel({
-      loop: true,
-      margin: 10,
-      responsiveClass: true,
-      responsive:{
-        0: {
-          items: 2,
-          nav: true
-        },
-        800: {
-          items: 3,
-          nav: false
-        },
-        1000: {
-          items: 6,
-          nav: true,
-          loop: true
-        }
-      }
-    });
-  });
+	$('.owl-carousel').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		dots:false,
+		responsive:{
+			0:{
+				items:1
+			},
+			768:{
+				items:2
+			},
+			1400:{
+				items:3
+			}
+		}
+	});
+}
+
+
+if ($('.owl-stage').length > 0) {
+    $(".owl-stage").addClass("display-flex flex-align-stretch");
 }
 
 
