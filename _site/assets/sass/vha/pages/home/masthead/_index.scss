@@ -248,7 +248,7 @@
         height: 120%;
     }
 
-    @include at-media(tablet-lg) {
+    @include at-media(tablet) {
     .masthead__img-container .circle-lines {
         top: -13%;
         left: -13%;
