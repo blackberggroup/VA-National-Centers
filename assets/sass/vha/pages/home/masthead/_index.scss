@@ -25,7 +25,7 @@
 
     @include at-media(tablet) {
         // padding-top: 70%;
-        height: 75vw;
+        height: 60vw;
         // margin-bottom: 14%;
     }
 
@@ -64,15 +64,6 @@
 
     &__logo {
         margin-bottom: 1.5rem;
-
-        img {
-            height: 78px;
-            
-            @include at-media(tablet) {
-                height: 114px;
-            }
-            
-        }
 
     }
 
@@ -204,6 +195,12 @@
             padding-top: 7%; 
         }
     }
+
+    @include at-media(widescreen) {
+        .masthead__content-wrapper {
+            padding-top: 130px; 
+        }
+    }
 }
 
 @-webkit-keyframes GradientRotation {
@@ -241,12 +238,12 @@
 .masthead__img-container .circle-lines {
     right: -5%;
     top: -2%;
-    height: 115%;
+    height: 120%;
 }
 
 @include at-media(tablet-lg) {
     .masthead__img-container .circle-lines {
-        top: -15%;
+        top: -13%;
         left: -13%;
     }
 }

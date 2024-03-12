@@ -13,8 +13,35 @@ if ($('.vha-video__play-action').length > 0){
 }
 
 
-if ($('.owl-carousel').length > 0){
-	$('.owl-carousel').owlCarousel({
+if ($('.ncchi-home .owl-carousel').length > 0){
+	$(function () {
+	  $('.ncchi-home .owl-carousel').owlCarousel({
+		loop: true,
+		margin: 10,
+		responsiveClass: true,
+		responsive:{
+		  0: {
+			items: 2,
+			nav: true
+		  },
+		  800: {
+			items: 3,
+			nav: false
+		  },
+		  1000: {
+			items: 6,
+			nav: true,
+			loop: true
+		  }
+		}
+	  });
+	});
+  }
+
+
+
+if ($('#nci2i-body .owl-carousel').length > 0){
+	$('#nci2i-body .owl-carousel').owlCarousel({
 		loop:true,
 		margin:10,
 		nav:true,
