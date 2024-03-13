@@ -44,12 +44,12 @@
 
         @include at-media(desktop-lg) {
             // padding-top: 54%;
-            height: 55vw;
+            height: 50vw;
             // margin-bottom: 8%;
         }
 
         @include at-media(widescreen) {
-            height: 750px;
+            height: 711px;
             padding-top: 0;
             // margin-bottom: 120px;
         }
@@ -177,14 +177,14 @@
         }
         
         .img-fluid {
-            padding-top: 10%;
+            margin-top: 10%;
             position: relative;
             z-index: 2;
         }
         
         @include at-media(tablet-lg) {
             .img-fluid {
-                padding-top: 5%;
+                margin-top: 0;
             }
         }
         
@@ -245,23 +245,43 @@
     .masthead__img-container .circle-lines {
         right: -5%;
         top: -5%;
-        height: 118%;
+        height: 130%;
     }
 
-    @include at-media(tablet) {
+    @media (max-width: 640px) {
         .masthead__img-container .circle-lines {
-            top: -13%;
+            height: 120%;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .masthead__img-container .circle-lines {
+            top: -21%;
+            left: -13%;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1399px) {
+        .masthead__img-container .circle-lines {
+            top: -14%;
             left: -13%;
         }
     }
 
+    @media (min-width: 640px) and (max-width: 767px) {
+        .masthead__img-container .circle-lines {
+            top: -21%;
+            left: -13%;
+        }
+    }
+    
     .masthead__img {
         img.img-fluid {
             border-radius: 8px;
             box-shadow: 0px 24px 32px 0px rgba(0, 0, 0, 0.15);
         }
     }
-
+    
     @media (min-width: 640px) and (max-width: 1199px) {
         .masthead__content {
             padding-left: 7% !important;
