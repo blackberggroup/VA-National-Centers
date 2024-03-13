@@ -1,0 +1,19 @@
+#drhci-body { 
+    .director__content {
+        h2.h4 {
+            color:#E42026 !important;
+        }
+
+        h2, p {
+            color: #000 !important;
+        }
+    }
+
+
+    .director__img-container {
+        img {
+            border-radius: 8px;
+            box-shadow: 0px 24px 32px 0px rgba(0, 0, 0, 0.15);
+        }
+    }
+}

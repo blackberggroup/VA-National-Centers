@@ -4,15 +4,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <meta name="description" content="">
-  <meta name="keywords" content="Digital and Remote Health Center, DRHCI">
-  <title>VHA - The Digital and Remote Health Center</title>
-
-  <meta property="og:title" content="((TITLE))">
-  <meta property="og:url" content="((URL))">
-  <meta property="og:description" content="((DESCRIPTION))">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="((OG:IMAGE URL))">
+  <meta name="description" content="The National Center for Innovation 2 Impact Collaborating Across Industries to Improve Veteran Health Care">
+  <meta name="keywords" content="National Center for Innovation to Impact, NCI2I">
+  <title>VHA - The National Center for Innovation 2 Impact</title>  
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
@@ -27,23 +21,28 @@
 
     <!-- SITE WRAPPER - START -->
     <div class="site-wrapper">
-      {% include "header-sub.html" %}
+      
+      {% include "dark-header-sub.html" %}
       
         <main>
-            <div style="height: 200px; text-align:center;">
-              <h1 style="padding-top: 50px;">The Digital and Remote Health Center</h1>
-            </div>
+            {% include "drhci/1_masthead.html" %}
+
+            {% include "drhci/2_mission.html" %}
+          
+            {% include "drhci/3_news.html" %}
+
+            {% include "drhci/4_director.html" %}
+
+            {% include "drhci/5_connect.html" %}
         </main>
 
-        {% include "footer-sub.html" %}
+      {% include "dark-footer-sub.html" %}
 
     </div>
     <!-- SITE WRAPPER - END -->
 
     <script src="../assets/uswds/js/uswds.min.js"></script>
-    <script src="../assets/js/vendors/lazy/jquery.lazy.min.js"></script>
     <script src="../assets/js/functions.js"></script>
 
 </body>
-
 </html>
