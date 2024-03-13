@@ -20,7 +20,7 @@
 
         @include at-media(mobile-lg) {
             // padding-top: 78%;
-            height: 75vw;
+            height: 95vw;
             // margin-bottom: 16%;
         }
 
@@ -244,15 +244,21 @@
 
     .masthead__img-container .circle-lines {
         right: -5%;
-        top: -2%;
-        height: 120%;
+        top: -5%;
+        height: 118%;
     }
 
     @include at-media(tablet) {
-    .masthead__img-container .circle-lines {
-        top: -13%;
-        left: -13%;
+        .masthead__img-container .circle-lines {
+            top: -13%;
+            left: -13%;
+        }
     }
+
+    @media (min-width: 640px) and (max-width: 1199px) {
+        .masthead__content {
+            padding-left: 7% !important;
+        }  
     }
 }
 

@@ -194,7 +194,6 @@
       background: #F0F0F0;
       color: #000;
       padding: 10% 0 10% !important;
-      margin-top: 10%;
     }
 
     #nci2i-news .usa-card__body > {
@@ -211,6 +210,12 @@
       p {
         margin-bottom: 5% !important;
       }
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    #nci2i-news {
+      margin-top: 10%;
     }
   }
 }
