@@ -251,6 +251,16 @@
         }
     }
 
+    @media (max-width: 980px) {
+        .masthead__img-container .circle-lines {
+            height: 120%;
+        }
+
+        .masthead__content h2 {
+            font-size: 1.125rem;
+        }
+    }
+
     @media (min-width: 1400px) {
         .masthead__img-container .circle-lines {
             top: -21%;
