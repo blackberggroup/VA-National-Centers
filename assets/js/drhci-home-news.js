@@ -42,11 +42,11 @@ var newsData = {
             "url": "https://marketplace.va.gov/innovations/reducing-hospital-admissions-and-amputation-prevention-remote-temperature-monitoring"
         },
         {
-            "img": "",
+            "img": "../assets/img/drhci/news/rtm-empowers-veterans.jpg",
             "title": "RTM Empowers Veterans to Lead Their Health Journey",
             "description": "Discover the cutting-edge Remote Temperature Monitoring (RTM) technology featured on pages 29-30 of the 2023 VA OHIL's State of Innovation report and delve into its transformative impact on healthcare delivery.",
             "tag": "",
-            "url": ""
+            "url": "https://www.innovation.va.gov/hil/assets/documents/OHIL_State_of_Innovation_Report_2023.pdf#page=16"
         },
         {
             "img": "../assets/img/drhci/news/drhci-news-toes.jpg",
