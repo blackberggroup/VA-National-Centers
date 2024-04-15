@@ -56,13 +56,19 @@ var data = {
             "title": "Innovator",
             "img": "../../assets/img/ncchi/team-higgins.png",
             "description": ""
-        }                                                              
+        },
+        {
+            "name": "Malvika Pillai, PhD",
+            "id": "Malvika-Pillai",
+            "title": "Postdoctoral Research Fellow",
+            "img": "../../assets/img/ncchi/team-pillai.png",
+            "description": "Malvika Pillai, PhD, is a postdoctoral research fellow in the VA Big Data Scientist Training Enhancement Program (BD-STEP), jointly in the VA Palo Alto Health Care System and Stanford University in Medicine (Biomedical Informatics). She received her BS in Quantitative Biology and PhD in Health Informatics from the University of North Carolina at Chapel Hill. She is committed to developing fair artificial intelligence/machine learning (AI/ML) models that can lead to high-quality, patient-centered care. This commitment extends into her role within NCCHI, where she leverages her expertise in natural language processing to extract meaningful insights from complex clinical narratives. By analyzing clinical notes, she aims to uncover information that can improve quality of care for Veterans and their caregivers, ensuring that technological advancement translates into tangible healthcare improvement. In her free time, Dr. Pillai is a foodie who loves to travel and explore different cultures."
+        }
     ]
 
 }
 
-
-data.data.forEach(bio => $('.bios-list__item-container').append("<div class='grid-col-12 bio-rows grid-row flex-row'>" + "<div class='grid-col-12 tablet:grid-col-2 desktop:grid-col-2 bios-list__img'>" + "<img alt='" + bio.name + " " + bio.title + "' src='" + bio.img + "' />" + "</div>" + "<div class='grid-col-12 tablet:grid-col-10 desktop:grid-col-10 bios-list__item padding-x-4 padding-bottom-6'>" + "<h2 id='" + bio.id + "' class='margin-top-0 margin-bottom-0 h3'>" + bio.name + "</h2>" + "<h3 class='bio__title'>" + bio.title + "</h3>" + "<p>" + bio.description + "</span>" +  "</div></div>")); 
+data.data.forEach(bio => $('.bios-list__item-container').append("<div id='" + bio.id + "' class='grid-col-12 bio-rows grid-row flex-row'>" + "<div class='grid-col-12 tablet:grid-col-2 desktop:grid-col-2 bios-list__img'>" + "<img id='" + bio.id + "' alt='" + bio.name + " " + bio.title + "' src='" + bio.img + "' />" + "</div>" + "<div class='grid-col-12 tablet:grid-col-10 desktop:grid-col-10 bios-list__item padding-x-4 padding-bottom-6'>" + "<h2 class='margin-top-0 margin-bottom-0 h3'>" + bio.name + "</h2>" + "<h3 class='bio__title'>" + bio.title + "</h3>" + "<p>" + bio.description + "</span>" +  "</div></div>"));
 
 $(".bios-list__item-container p:empty" ).remove();
 $(".bios-list__item-container h3:empty" ).remove();
