@@ -6,7 +6,6 @@ Uncomment the following lines and add a list of changed settings
 in the form $setting: value,
 ----------------------------------------
 */
-
 @use "uswds-core" with (
   $theme-utility-breakpoints: (
     'card':              false,   // 160px
@@ -23,12 +22,12 @@ in the form $setting: value,
   $theme-show-compile-warnings: false,
   $theme-show-notifications: false,
   $theme-grid-container-max-width: "widescreen",
-
   
   /* ----------------------------------------
   TYPOGRAPHY
   ---------------------------------------- */
   $theme-font-path: "../uswds/fonts",
+  
   /* ----------------------------------------
   HEADER
   ---------------------------------------- */
@@ -40,13 +39,16 @@ in the form $setting: value,
   FOOTER
   ---------------------------------------- */
   $theme-footer-max-width: "widescreen",
-
   $theme-identifier-max-width: "widescreen",
-
   $theme-card-border-width: 1px,
+
+  /* ----------------------------------------
+  COLORS
+  ---------------------------------------- */
+  $theme-color-primary-lighter: #FFDAB9, // Light orange color
+  $theme-color-primary: #FFA500, // Darker, Primary Orange
 
   $theme-color-base-family: "base-ligher",
   $theme-color-base-lighter: "gray-70",
   $theme-color-base-ink: "gray-1",
-
 );
