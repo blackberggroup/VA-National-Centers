@@ -2,18 +2,11 @@ var data = {
 
     "data": [
         {
-            "name": "Thomas Osborne, MD",
-            "id": "Thomas-Osborne",
-            "title": "Director",
-            "img": "../../assets/img/ncchi/team-osborne.png",
-            "description": "Thomas Osborne, MD, is the Director of VA" + "&#8217;" + "s National Center for Collaborative Healthcare Innovation (NCCHI) and Executive Director of the VA Convergence Center (VC2). His team" + "&#8217;" + "s mission is to deliver the best and most advanced healthcare solutions to our Veterans. They are collaborating throughout VA, with other government agencies, and industry as they leverage thelatest technologies such as advanced analytics, cloud computing, 5G, sensor technology, wearables, augmented reality, and virtual reality.  Dr. Osborne is the inaugural recipient of the VA Under Secretary for Health Robert L. Jesse Award for Excellence in Innovation, the Arthur S. Flemming Award for exceptional public service, as well as multiple other national awards. His work has been published in numerous medical journals and textbooks on topics such as health equity, predictive analytics, advanced technology, and the future of health care. Dr. Osborne received his medical degree from Dartmouth Medical School before completing residency and fellowship at Harvard hospitals."
-        },
-        {
             "name": "David Arreola",
             "id": "David-Arreola",
-            "title": "Deputy Director",
+            "title": "Interim Director",
             "img": "../../assets/img/ncchi/team-arreola.png",
-            "description": "Meet David Arreola: Deputy Director of Operations. David is a seasoned Information Technology expert with an impressive track record spanning nearly 20 years. Beginning his career as a dedicated IT customer support representative, David" + "&#8217;" + "s passion and determination led him to ascend to the role of IT Supervisor for the VA Palo Alto Customer Support team. Eager to drive innovation in the healthcare sector, David joined the prestigious National Center for Collaborative Healthcare Innovation (NCCHI) team under the NCCHI Director Dr. Thomas F. Osborne, where he now serves as the Deputy Director of Operations. David has spearheaded groundbreaking projects, including deploying the first full spectrum 5G network, implementing apioneering 5G-enabled drone program, implementing a Smart sock fall prevention system, and developing cutting-edge holographic surgical guidance systems. Through his relentless pursuit ofexcellence, David continues to shape the future of healthcare technology, positively impacting patient care and paving the way for transformative advancements in the field."
+            "description": "Meet David Arreola: Interim Director of Operations. David is a seasoned Information Technology expert with an impressive track record spanning nearly 20 years. Beginning his career as a dedicated IT customer support representative, David" + "&#8217;" + "s passion and determination led him to ascend to the role of IT Supervisor for the VA Palo Alto Customer Support team. Eager to drive innovation in the healthcare sector, David joined the prestigious National Center for Collaborative Healthcare Innovation (NCCHI) team under the previous NCCHI Director Dr. Thomas F. Osborne, where he now serves as the Interim Director. David has spearheaded groundbreaking projects, including deploying the first full spectrum 5G network, implementing apioneering 5G-enabled drone program, implementing a Smart sock fall prevention system, and developing cutting-edge holographic surgical guidance systems. Through his relentless pursuit ofexcellence, David continues to shape the future of healthcare technology, positively impacting patient care and paving the way for transformative advancements in the field."
         },
         {
             "name": "Zachary Veigulis, MS",
