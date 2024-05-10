@@ -50,3 +50,12 @@ i.e.
    --font-serif: #{family("serif")};
    --font-mono: #{family("mono")};  
 }
+
+
+.spotlight-background {
+   background: #FEF6F1 !important;
+ }
+
+ .background-gradient{
+   background: linear-gradient(90deg, #D64424 0%, #850E23 100%) !important; 
+ }

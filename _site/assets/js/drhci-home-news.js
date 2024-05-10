@@ -67,7 +67,29 @@ var newsData = {
 
 
 // render dynamic gallery data
-newsData.data.forEach(news => $('.owl-carousel.usa-card-group').append("<div class='usa-card__container item'>" + "<a class='card-group-tags' href='" + news.url + "'>" + "<div class='usa-card__media' >" + "<div class='usa-card__img'>" + "<img  src='" + news.img + "'alt='" + news.alt + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h2 class='h3'>" + news.title + "</h2>" + "<p>" + news.description + "</p>" + "<span class='usa-tag' style='background-color: #FFBE2E !important; text-transform:none; color: #1B1B1B'>" + news.tag + "</span>" + "</div>" + "</a>" + "</div>")); 
+//newsData.data.forEach(news => $('.owl-carousel.usa-card-group').append("<div class='usa-card__container item'>" + "<a class='card-group-tags' href='" + news.url + "'>" + "<div class='usa-card__media' >" + "<div class='usa-card__img'>" + "<img  src='" + news.img + "'alt='" + news.alt + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h2 class='h3'>" + news.title + "</h2>" + "<p>" + news.description + "</p>" + "<span class='usa-tag' style='background-color: #FFBE2E !important; text-transform:none; color: #1B1B1B'>" + news.tag + "</span>" + "</div>" + "</a>" + "</div>")); 
+
+// Render dynamic gallery data
+newsData.data.forEach(news => {
+    $('.owl-carousel.usa-card-group').append(
+      `<div class="usa-card__container item">
+        <a class="card-group-tags" href="${news.url}">
+          <div class="usa-card__media">
+            <div class="usa-card__img">
+              <img src="${news.img}" alt="${news.alt}" />
+            </div>
+          </div>
+          <div class="usa-card__body">
+            <h2 class="h3">${news.title}</h2>
+            <p>${news.description}</p>
+            <span class="usa-tag text-base-darkest bg-gold text-no-uppercase">${news.tag}</span>
+          </div>
+        </a>
+      </div>`
+    );
+  });
+
+
 
 
 // remove empty elements
