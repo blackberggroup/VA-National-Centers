@@ -1,6 +1,9 @@
 @use "uswds-core" as *;
 
 #drhci-body { 
+    .z-11 {
+        z-index: 11;
+      }
     .masthead {
         color: #fff !important;
         background: linear-gradient(235deg, #E97825, #E32027);
