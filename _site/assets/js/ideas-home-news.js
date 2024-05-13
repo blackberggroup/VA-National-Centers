@@ -2,26 +2,26 @@ var newsData = {
 
     "data": [
         {
-            "img": "../assets/img/drhci/news/drhci-news-telehealth.png",
-            "alt": "Telehealth logo graphic",
-            "title": "TEST TEST VA Telehealth Services",
-            "description": "TEST TEST The U.S. Department of Veterans Affairs spearheads telehealth innovation, empowering Veterans to access top-tier care conveniently from anywhere through VA Telehealth Services.",
+            "img": "../assets/img/ideas/news/ideas-news-1.png",
+            "alt": "Person speaking on stage",
+            "title": "iEX Talk: Three Key Elements to Cultivate and Enable a Culture of Innovation",
+            "description": "Kathryn Beckner, Director of IDEAS Center for Innovation, shares insights into three essential elements for fostering a culture of innovation at the Central Virginia VA Health Care System and supporting employees in doing the hard work of improving Veteran care.",
             "tag": "",
             "url": "https://telehealth.va.gov/"
         },
         {
-            "img": "../assets/img/drhci/news/drhci-news-parade.jpg",
-            "alt": "Man holding USA flag leading a group of people walking on the street",
-            "title": "Veterans Explore Cincinnati VA's Whole Health Challenge",
-            "description": "Veterans participate in a 10-week Whole Health Challenge focused on promoting camaraderie and wellness through community engagement, personalized health plans, and shared experiences.",
-            "tag": "VA's Internal Network",
+            "img": "../assets/img/ideas/news/ideas-news-2.png",
+            "alt": "Two health professionals scanning a QR code with a phone",
+            "title": "Less Gas More Green",
+            "description": "Anesthesia Provider, Sam Smith, developed an educational tool reducing gas flows to under 2 liters and discontinuing the use of other environmentally harmful anesthetic agents. This practice reduces the carbon footprint for VA Medical Centers, while creating significant cost savings.",
+            "tag": "",
             "url": "https://vaww.blog.va.gov/CCM/?p=6655"
         },
         {
-            "img": "../assets/img/drhci/news/drhci-news-helpp.png",
-            "alt": "HELPP logo graphic",
-            "title": "HELPP Delivers Timely Veteran Care",
-            "description": "Dr. Nichol Salvo, deputy director of VA's National Podiatry Program, spearheaded the High-risk Eye and Limb Preservation Program (HELPP) during the pandemic, reducing amputation rates by 40% and wait times from 38 to 10 days at Atlanta VA",
+            "img": "../assets/img/ideas/news/ideas-news-3.png",
+            "alt": "Panel of people sitting in chairs on a stage",
+            "title": "Pioneering Immersive Experiences for Women Veterans",
+            "description": "Dr. Lauren Siff’s pioneering approach customizes content in a virtual reality environment where Women Veterans who have experienced military sexual trauma can feel safe throughout their uro-gynecological procedures. Watch her 2023 VA Immersive Summit talk to learn more!",
             "tag": "",
             "url": "https://news.va.gov/128989/innovation-reduce-amputations-veterans-walking/"
         }
