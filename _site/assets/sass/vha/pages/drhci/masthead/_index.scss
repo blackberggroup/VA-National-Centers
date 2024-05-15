@@ -4,9 +4,31 @@
     .z-11 {
         z-index: 11;
       }
-      .margin-left-100{
-        margin-left: 100px;
+      .masthead-link{
+        position: absolute;
+        bottom:-35px; 
+        left: 19%; 
+        transform: translateY(-50%);
       }
+      .logo-container {
+        position: relative;
+    }
+    @media screen and (min-width: 1200px) {
+        .masthead-link{
+            left: 18%; 
+          }
+    }
+    @media screen and (min-width: 1300px) {
+        .masthead-link{
+            left: 17%; 
+          }
+    }
+    @media screen and (min-width: 1400px) {
+        .masthead-link{
+            left: 16%; 
+          }
+    }
+ 
     .masthead {
         color: #fff !important;
         background: linear-gradient(235deg, #E97825, #E32027);
