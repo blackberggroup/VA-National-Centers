@@ -26,28 +26,12 @@ var newsData = {
             "url": "https://news.va.gov/128989/innovation-reduce-amputations-veterans-walking/"
         },
         {
-          "img": "../assets/img/ideas/news/ideas-news-1.png",
+          "img": "../assets/img/ideas/news/ideas-news-4.png",
           "alt": "Person speaking on stage",
           "title": "iEX Talk: Three Key Elements to Cultivate and Enable a Culture of Innovation",
           "description": "Kathryn Beckner, Director of IDEAS Center for Innovation, shares insights into three essential elements for fostering a culture of innovation at the Central Virginia VA Health Care System and supporting employees in doing the hard work of improving Veteran care.",
           "tag": "",
-          "url": "https://telehealth.va.gov/"
-      },
-      {
-          "img": "../assets/img/ideas/news/ideas-news-2.png",
-          "alt": "Two health professionals scanning a QR code with a phone",
-          "title": "Less Gas More Green",
-          "description": "Anesthesia Provider, Sam Smith, developed an educational tool reducing gas flows to under 2 liters and discontinuing the use of other environmentally harmful anesthetic agents. This practice reduces the carbon footprint for VA Medical Centers, while creating significant cost savings.",
-          "tag": "",
-          "url": "https://vaww.blog.va.gov/CCM/?p=6655"
-      },
-      {
-          "img": "../assets/img/ideas/news/ideas-news-3.png",
-          "alt": "Panel of people sitting in chairs on a stage",
-          "title": "Pioneering Immersive Experiences for Women Veterans",
-          "description": "Dr. Lauren Siff’s pioneering approach customizes content in a virtual reality environment where Women Veterans who have experienced military sexual trauma can feel safe throughout their uro-gynecological procedures. Watch her 2023 VA Immersive Summit talk to learn more!",
-          "tag": "",
-          "url": "https://news.va.gov/128989/innovation-reduce-amputations-veterans-walking/"
+          "url": "../assets/documents/ideas/DJ-Scanner.pdf",
       }
     ]                                         
 }
