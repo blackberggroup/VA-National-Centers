@@ -1,0 +1,132 @@
+@use "uswds-core" as *;
+.offset-background {
+    background: linear-gradient(180deg, #E42227 0%, #E97625 100%);
+}
+
+.accelerating-hci__img-container {
+
+    .p, p {
+        color: white;
+    }
+
+    .h2, h2 {
+        color: white;
+        // margin-bottom: 0;
+    }
+
+}
+
+
+@include at-media(mobile) {
+    .accelerating-hci {
+        margin-bottom: -15rem;
+    }
+    .accelerating-hci__img-container {
+        top: -14em;
+
+        .vha-video__play-icon {
+            top: 65% !important;
+        }
+    }
+    .offset-background {
+        height: 14em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(mobile-lg) {
+    .accelerating-hci {
+        margin-bottom: -15rem;
+    }
+    .accelerating-hci__img-container {
+        top: -19em;
+
+        .vha-video__play-icon {
+            top: 67% !important;
+        }
+    }
+    .offset-background {
+        height: 19em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(tablet) {
+    .accelerating-hci {
+        margin-bottom: -20rem;
+    }
+    .accelerating-hci__img-container {
+        top: -23em;
+
+        .vha-video__play-icon {
+            top: 63% !important;
+        }
+    }
+    .offset-background {
+        height: 23em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(tablet-lg) {
+    .accelerating-hci {
+        margin-bottom: -30rem;
+    }
+    .accelerating-hci__img-container {
+        top: -27em;
+
+        .vha-video__play-icon {
+            top: 60% !important;
+        }
+    }
+    .offset-background {
+        height: 27em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(desktop) {
+    .accelerating-hci {
+        margin-bottom: -30rem;
+    }
+    .accelerating-hci__img-container {
+        top: -30em;
+    }
+    .offset-background {
+        height: 30em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(desktop-lg) {
+    .accelerating-hci {
+        margin-bottom: -40rem;
+    }
+    .accelerating-hci__img-container {
+        top: -35em;
+    }
+    .offset-background {
+        height: 35em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
+
+@include at-media(widescreen) {
+    .accelerating-hci {
+        margin-bottom: -40rem;
+    }
+    .accelerating-hci__img-container {
+        top: -36em;
+    }
+    .offset-background {
+        height: 36em;
+        padding-top: 1em;
+        z-index: -1;
+    }
+}
