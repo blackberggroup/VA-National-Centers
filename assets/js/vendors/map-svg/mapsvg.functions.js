@@ -56,11 +56,11 @@ jQuery(document).ready(function() {
 			y: 464.3699853100326,
 			geoCoords: [47.613378, -122.194597]
 		}, {
-			id: "VA Palo Alto health Care System<br />\nPalo Alto, CA",
+			id: "VA Palo Alto Health Care System<br />\nPalo Alto, CA",
 			attached: true,
 			isLink: false,
-			tooltip: "<strong>National Center for Collaborative Health Care Innovation</strong>",
-			popover: "<strong>National Center for Collaborative Health Care Innovation</strong>\n<br /><br />\nVA Palo Alto Health Care System\n<br />\n<a href=\"https://www.innovation.va.gov/ecosystem/views/national-centers/ncchi/\">Visit Website</a>",
+			tooltip: "<strong>National Center for Collaborative Healthcare Innovation</strong>",
+			popover: "<strong>National Center for Collaborative Healthcare Innovation</strong>\n<br /><br />\nVA Palo Alto Health Care System\n<br />\n<a href=\"https://www.innovation.va.gov/ecosystem/views/national-centers/ncchi/\">Visit Website</a>",
 			data: {},
 			src: "assets/img/map-svg/default-pin.svg",
 			width: 26,
@@ -83,24 +83,25 @@ jQuery(document).ready(function() {
 			// geoCoords: [37.18878, -83.830697]
 			geoCoords: [39.2, -84.5]
 		}, {
-			id: "Veterans Integrated Service Network (VISN) 1<br />\nBedford, MA",
+			id: "Veterans Integrated Service Network (VISN) 1<br />\nManchester, NH",
 			attached: true,
 			isLink: false,
 			tooltip: "<strong>New England Center for Innovation Excellence</strong>",
-			popover: "<strong>New England Center for Innovation Excellence</strong>\n<br /><br />\nBedford, MA\n<br />\n<a href=\"https://www.innovation.va.gov/ecosystem/views/national-centers/necie.html\">Visit Website</a>",
+			popover: "<strong>New England Center for Innovation Excellence</strong>\n<br /><br />\nManchester, NH\n<br />\n<a href=\"https://www.innovation.va.gov/ecosystem/views/national-centers/necie.html\">Visit Website</a>",
 			data: {},
 			src: "assets/img/map-svg/default-pin.svg",
 			width: 26,
 			height: 30,
 			x: 927.2651992253102,
 			y: 556.8532421224277,
-			geoCoords: [42.47555, -71.241815]
+			// geoCoords: [42.47555, -71.241815]
+			geoCoords: [43, -71.241815]
 		}, {
 			id: "Central Virginia VA Health Care System<br />\nRichmond, VA",
 			attached: true,
 			isLink: false,
 			tooltip: "<strong>Innovation, Development, Education, Advanced Implementation, Solutions (IDEAS) Center</strong>",
-			popover: "<strong>Innovation, Development, Education, Advanced Implementation, Solutions (IDEAS) Center</strong>\n<br /><br />\nRichmond, Va\n<br />\n<a href=\"https://www.innovation.va.gov/ecosystem/views/national-centers/drhci/\">Visit Website</a>",
+			popover: "<strong>Innovation, Development, Education, Advanced Implementation, Solutions (IDEAS) Center</strong>\n<br /><br />\nRichmond, VA\n<br />\n<a href=\"https://www.innovation.va.gov/ecosystem/views/national-centers/drhci/\">Visit Website</a>",
 			data: {},
 			src: "assets/img/map-svg/default-pin.svg",
 			width: 26,
