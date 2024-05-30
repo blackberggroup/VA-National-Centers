@@ -60,6 +60,26 @@ if ($('#drhci-body .owl-carousel').length > 0){
 	});
 }
 
+if ($('#nci2i-body .owl-carousel').length > 0){
+	$('#nci2i-body .owl-carousel').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		dots:false,
+		responsive:{
+			0:{
+				items:1
+			},
+			768:{
+				items:2
+			},
+			1400:{
+				items:4
+			}
+		}
+	});
+}
+
 
 if ($('.owl-stage').length > 0) {
     $(".owl-stage").addClass("display-flex flex-align-stretch");
