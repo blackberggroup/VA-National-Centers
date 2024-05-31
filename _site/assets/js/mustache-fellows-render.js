@@ -74,7 +74,7 @@ let news8 = {
 let news9 = {
     url: "https://ai.healthcareitnews.com/ai-powered-healthcare/va-launches-collaborative-healthcare-innovation-center-california",
     fellow_status: "current",
-    img: "../assets/img/home/news/ncchi.jpg",
+    img: "assets/img/home/news/ncchi.jpg",
     alt: "Doctors using VR tools",
     title: "VA Launches Collaborative Healthcare Innovation Center in California",
     article_copy: "With the goal of taking advantage of emerging technology to improve veteran care, the Department of Veterans Affairs (VA) recently established the National Center for Collaborative Healthcare Innovation (NCCHI) within the Palo Alto Health Care System (VAPAHCS) in California."
@@ -83,7 +83,7 @@ let news9 = {
 let news10 = {
     url: "https://www.va.gov/opa/pressrel/pressrelease.cfm?id=5309",
     fellow_status: "current",
-    img: "../assets/img/home/news/first-innovation-center.jpg",
+    img: "assets/img/home/news/first-innovation-center.jpg",
     alt: "First place trophy",
     title: "VA pilots first collaborative health care innovation center in Palo Alto",
     article_copy: "VA recently established the National Center for Collaborative Healthcare Innovation (NCCHI) within the VA Palo Alto Health Care System (VAPAHCS) in California as part of the department's strategy to advance Veteran health care services with cutting edge technology."
@@ -92,7 +92,7 @@ let news10 = {
 let news11 = {
     url: "https://federalnewsnetwork.com/tom-temin-federal-drive/2019/11/va-creates-awards-innovation-honor-for-late-under-secretary-of-health/",
     fellow_status: "current",
-    img: "../assets/img/home/news/robert-jesse-award.jpg",
+    img: "assets/img/home/news/robert-jesse-award.jpg",
     alt: "",
     title: "VA creates, awards innovation honor for late under secretary of Health",
     article_copy: "To honor the late Under Secretary for Health Dr. Robert Jesse, the Department of Veterans Affairs named an annual award for Excellence in Innovation in his name. This year, the award went to Dr. Thomas Osborne, director of the VA National Center for Collaborative Healthcare Innovation."
@@ -101,7 +101,7 @@ let news11 = {
 let news12 = {
     url: "https://www.digitaljournal.com/pr/4879783#ixzz7UA5UgnSb",
     fellow_status: "current",
-    img: "../assets/img/home/news/smart-sock.jpg",
+    img: "assets/img/home/news/smart-sock.jpg",
     alt: "3D rendering of virus",
     title: "Palarum Announces US Veterans Affairs to Evaluate Use of 'Smart Patient Sock' to Reduce Patient Falls",
     article_copy: "VA and Palarum, LLC, announced that they have entered into a Cooperative Research and Development Agreement Program (CRADA) to evaluate Palarum's innovative e-wearable technology which is designed to reduce inpatient falls."
@@ -110,7 +110,7 @@ let news12 = {
 let news13 = {
     url: "https://www.va.gov/opa/pressrel/pressrelease.cfm?id=5433",
     fellow_status: "current",
-    img: "../assets/img/home/news/xprize-pandemic-alliance.jpg",
+    img: "assets/img/home/news/xprize-pandemic-alliance.jpg",
     alt: "Rendering of circuit board",
     title: "VA joins XPRIZE Pandemic Alliance to combat COVID-19 and future outbreaks",
     article_copy: "VA announced that it has partnered with the XPRIZE Foundation's Pandemic Alliance as part of a public and private coalition to help develop ways to address the coronavirus disease 2019 (COVID-19) pandemic and subsequent global outbreaks."
@@ -119,7 +119,7 @@ let news13 = {
 let news14 = {
     url: "https://med.stanford.edu/radiology/news/2019/thomas-osborne-received-robert-l-jesse-award.html",
     fellow_status: "current",
-    img: "../assets/img/home/news/jesse-award-osborne.jpg",
+    img: "assets/img/home/news/jesse-award-osborne.jpg",
     alt: "Trophies in a trophy case",
     title: "Dr. Osborne Received Inaugural Robert L. Jesse Award for Excellence in Innovation",
     article_copy: "Thomas Osborne, MD, Clinical Assistant Professor (Affiliated) of Neuroimaging at the VA Palo Alto Health Care System (VAPAHCS), was presented the inaugural Under Secretary for Health Robert L. Jesse Award for Excellence in Innovation from VA. This award recognizes and honors VA employees who have demonstrated excellence and enabled the discovery and spread of health care innovation that exceeds expectations, restores hope and builds trust."
@@ -128,7 +128,7 @@ let news14 = {
 let news15 = {
     url: "https://www.bloomberg.com/press-releases/2022-08-23/legacy-partners-with-the-us-department-of-veterans-affairs-to-analyze-fertility-in-global-war-on-terror-veterans",
     fellow_status: "current",
-    img: "../assets/img/home/news/legacy-partners.jpg",
+    img: "assets/img/home/news/legacy-partners.jpg",
     alt: "Woman looking through micrscope in lab",
     title: "Legacy Partners with VA to Analyze Fertility in Global War On Terror",
     article_copy: "Legacy, the leading digital male fertility clinic, announced its CRADA with VA to shed light on infertility in the military"
@@ -137,7 +137,7 @@ let news15 = {
 let news16 = {
     url: "https://news.va.gov/99336/va-employee-revolutionizes-ridesharing-for-veterans/",
     fellow_status: "current",
-    img: "../assets/img/home/news/veteran-rideshare.jpg",
+    img: "assets/img/home/news/veteran-rideshare.jpg",
     alt: "Rideshare driver view",
     title: "VA Employee Revolutionizes Ridesharing for Veterans",
     article_copy: "Boston VA's Charles Franklin worked with Innovators Network and New England Center for Innovation Excellence to design and implement a rideshare program to meet Veteran housing and employment needs."
@@ -146,7 +146,7 @@ let news16 = {
 let news17 = {
     url: "https://www.militarytimes.com/news/pentagon-congress/2022/08/23/study-to-examine-reasons-for-infertility-among-recent-war-veterans/",
     fellow_status: "current",
-    img: "../assets/img/home/news/veteran-infertility.jpg",
+    img: "assets/img/home/news/veteran-infertility.jpg",
     alt: "Blurred photo of small group of doctors and nurses talking",
     title: "Study to Examine Reasons for Infertility among Recent War Veterans",
     article_copy: "Researchers announce plans for a new study to discover reasons why veterans from the recent wars are more likely to struggle with infertility than their civilian peers."
@@ -155,7 +155,7 @@ let news17 = {
 let news18 = {
     url: "https://nationalcenterformobilitymanagement.org/blog/rideshare-veterans/",
     fellow_status: "current",
-    img: "../assets/img/home/news/vulnerable-veterans-rideshare.jpg",
+    img: "assets/img/home/news/vulnerable-veterans-rideshare.jpg",
     alt: "Rideshare driver placing items in trunk of car",
     title: "Rideshare Program Helps Veterans Access Needed Services",
     article_copy: "Studies have found that access to reliable transportation is one of the biggest factors when it comes to escaping from poverty. To meet the needs of unsheltered veterans and those at risk of homelessness, VA has launched a nationwide rideshare program to streamline vulnerable veterans' access to critically needed services."
@@ -164,7 +164,7 @@ let news18 = {
 let news19 = {
     url: "https://news.va.gov/102631/rideshare-program-helps-veteran-find-news-roads-to-employment/",
     fellow_status: "current",
-    img: "../assets/img/home/news/rideshare-for-veteran-employment.jpg",
+    img: "assets/img/home/news/rideshare-for-veteran-employment.jpg",
     alt: "Using smartphont to request rideshare",
     title: "Rideshare Program Helps Veterans Find New Roads to Employment",
     article_copy: "Despite trying to find employment near her apartment, Peters found no positions that could leverage her skillset that were within walking distance from her home. Although she preferred accomplishing tasks on her own, she was willing to work with VA on one thing: a ride to her “graveyard” shift."

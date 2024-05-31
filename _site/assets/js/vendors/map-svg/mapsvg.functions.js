@@ -101,7 +101,7 @@ jQuery(document).ready(function() {
 			attached: true,
 			isLink: false,
 			tooltip: "<strong>Innovation, Development, Education, Advanced Implementation, Solutions (IDEAS) Center</strong>",
-			popover: "<strong>Innovation, Development, Education, Advanced Implementation, Solutions (IDEAS) Center</strong>\n<br /><br />\nRichmond, VA\n<br />\n<a href=\"https://www.innovation.va.gov/ecosystem/views/national-centers/drhci/\">Visit Website</a>",
+			popover: "<strong>Innovation, Development, Education, Advanced Implementation, Solutions (IDEAS) Center</strong>\n<br /><br />\nRichmond, VA\n<br />\n<a href=\"https://www.innovation.va.gov/ecosystem/views/national-centers/ideas/\">Visit Website</a>",
 			data: {},
 			src: "assets/img/map-svg/default-pin.svg",
 			width: 26,
