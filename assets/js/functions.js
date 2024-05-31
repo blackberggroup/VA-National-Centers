@@ -59,9 +59,9 @@ if ($('#drhci-body .owl-carousel').length > 0){
 }
 
 // NCI2I hero carousel
-if ($('#test .owl-carousel').length > 0){
+if ($('#masthead .owl-carousel').length > 0){
 	$(function () {
-	  $('#test .owl-carousel').owlCarousel({
+	  $('#masthead .owl-carousel').owlCarousel({
 		loop: true,
 		margin: 10,
 		responsiveClass: true,

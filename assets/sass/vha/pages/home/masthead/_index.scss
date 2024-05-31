@@ -316,9 +316,77 @@
             box-shadow: 0px 24px 32px 0px rgba(0, 0, 0, 0.15);
         }
     }
+
+    .masthead__img-container .owl-carousel .owl-item img {
+        // width: 80%;
+        border-radius: 8px;
+    }
+
+    .masthead__img-container .owl-carousel .owl-nav button.owl-prev {
+        box-shadow: inset 0 0 0 2px #fff;
+        background-color: transparent;
+        color: #fff;
+        position: absolute;
+        top: 39%;
+        left: 0%;
+    }
+
+    .masthead__img-container .owl-carousel .owl-nav button.owl-prev:hover {
+        box-shadow: inset 0 0 0 2px #dcdcdc;
+        background-color: transparent;
+        color: #dcdcdc;
+        position: absolute;
+        top: 39%;
+        left: 0%;
+    }
+
+    .masthead__img-container .owl-carousel .owl-nav button.owl-prev:active {
+        box-shadow: inset 0 0 0 2px #162e51;
+        background-color: transparent;
+        color: #162e51;
+        position: absolute;
+        top: 39%;
+        left: 0%;
+    }
+
+    .masthead__img-container .owl-carousel .owl-nav button.owl-next {
+        box-shadow: inset 0 0 0 2px #fff;
+        background-color: transparent;
+        color: #fff;
+        position: absolute;
+        top: 39%;
+        right: 0%;
+    }
+
+    .masthead__img-container .owl-carousel .owl-nav button.owl-next:hover {
+        box-shadow: inset 0 0 0 2px #dcdcdc;
+        background-color: transparent;
+        color: #dcdcdc;
+        position: absolute;
+        top: 39%;
+        right: 0%;
+    }
+
+    .masthead__img-container .owl-carousel .owl-nav button.owl-next:active {
+        box-shadow: inset 0 0 0 2px #162e51;
+        background-color: transparent;
+        color: #162e51;
+        position: absolute;
+        top: 39%;
+        right: 0%;
+    }
+
+    .masthead__img-container .owl-theme .owl-dots {
+        margin-top: 20px;
+    }
+
+    #nci2i-news .owl-carousel .owl-nav button.owl-prev {
+        top: 97%;
+        left: 46%;
+    }
+
+    #nci2i-news .owl-carousel .owl-nav button.owl-next {
+        top: 97%;
+        right: 46%;
+    }
 }
-
-
-
-
-
