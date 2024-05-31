@@ -4,19 +4,19 @@
     #our-mission {
 
         @media (min-width: 480px) and (max-width: 640px) {
-            margin-top: 55vw; 
+            margin-top: 45vw; 
         }
 
         @media (max-width: 479px) and (min-width: 401px) {
-            margin-top: 50vw; 
+            margin-top: 30vw; 
         }
 
         @media (max-width: 400px) and (min-width: 321px)  {
-            margin-top: 55vw; 
+            margin-top: 35vw; 
         }
 
         @media (max-width: 320px) {
-            margin-top: 65vw; 
+            margin-top: 45vw; 
         }
 
         @include at-media(tablet-lg) {

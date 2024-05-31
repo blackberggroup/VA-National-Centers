@@ -381,6 +381,18 @@
 
     .masthead__img-container .owl-theme .owl-dots {
         margin-top: 20px;
+        .owl-dot {
+            span {
+              background: none !important;
+              border: 2px solid #C3C3C3;
+              opacity: 1;
+            }
+      
+            &.active span, &:hover span {
+              background: #E87524 !important;
+              border: 2px solid #fff;
+            }
+          }
     }
 
     #nci2i-news .owl-carousel .owl-nav button.owl-prev {
