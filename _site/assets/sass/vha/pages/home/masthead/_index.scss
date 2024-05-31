@@ -317,9 +317,12 @@
         }
     }
 
+    .masthead__img-container .owl-stage-outer {
+        border-radius: 8px;
+    }
+
     .masthead__img-container .owl-carousel .owl-item img {
         // width: 80%;
-        border-radius: 8px;
     }
 
     .masthead__img-container .owl-carousel .owl-nav button.owl-prev {
