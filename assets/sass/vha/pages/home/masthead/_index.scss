@@ -383,98 +383,21 @@
         margin-top: 20px;
         .owl-dot {
             span {
+              width: 16px;
+              height: 16px;
               background: none !important;
               border: 2px solid #C3C3C3;
               opacity: 1;
             }
       
             &.active span, &:hover span {
+              width: 16px;
+              height: 16px;
               background: #E87524 !important;
               border: 2px solid #fff;
             }
           }
     }
 
-    @include at-media(mobile) {
-        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
-            display: inline !important;
-            top: 97%;
-            left: 33%;
-            border-radius: 4px !important;
-            background: #d83933 !important;
-        }
-        #nci2i-news .owl-carousel .owl-nav button.owl-next {
-            display: inline !important;
-            top: 97%;
-            right: 33%;
-            border-radius: 4px !important;
-            background: #d83933 !important;
-        }
-    }
-
-    @include at-media(mobile-lg) {
-        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
-            top: 97%;
-            left: 40%;
-        }
-        #nci2i-news .owl-carousel .owl-nav button.owl-next {
-            top: 97%;
-            right: 40%;
-        }
-    }
-
-    @include at-media(tablet) {
-        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
-            top: 97%;
-            left: 43%;
-        }
-        #nci2i-news .owl-carousel .owl-nav button.owl-next {
-            top: 97%;
-            right: 43%;
-        }
-    }
-
-    @include at-media(tablet-lg) {
-        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
-            top: 97%;
-            left: 44.5%;
-        }
-        #nci2i-news .owl-carousel .owl-nav button.owl-next {
-            top: 97%;
-            right: 44.5%;
-        }
-    }
-
-    @include at-media(desktop) {
-        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
-            top: 97%;
-            left: 44.5%;
-        }
-        #nci2i-news .owl-carousel .owl-nav button.owl-next {
-            top: 97%;
-            right: 44.5%;
-        }
-    }    
-
-    @include at-media(desktop-lg) {
-        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
-            top: 97%;
-            left: 46%;
-        }
-        #nci2i-news .owl-carousel .owl-nav button.owl-next {
-            top: 97%;
-            right: 46%;
-        }
-    }
-
-    @include at-media(widescreen) {
-        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
-            top: 97%;
-            left: 46%;
-        }
-        #nci2i-news .owl-carousel .owl-nav button.owl-next {
-            top: 97%;
-            right: 46%;
-        }
-    }
+    
 }
