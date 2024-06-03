@@ -395,13 +395,86 @@
           }
     }
 
-    #nci2i-news .owl-carousel .owl-nav button.owl-prev {
-        top: 97%;
-        left: 46%;
+    @include at-media(mobile) {
+        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
+            display: inline !important;
+            top: 97%;
+            left: 33%;
+            border-radius: 4px !important;
+            background: #d83933 !important;
+        }
+        #nci2i-news .owl-carousel .owl-nav button.owl-next {
+            display: inline !important;
+            top: 97%;
+            right: 33%;
+            border-radius: 4px !important;
+            background: #d83933 !important;
+        }
     }
 
-    #nci2i-news .owl-carousel .owl-nav button.owl-next {
-        top: 97%;
-        right: 46%;
+    @include at-media(mobile-lg) {
+        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
+            top: 97%;
+            left: 40%;
+        }
+        #nci2i-news .owl-carousel .owl-nav button.owl-next {
+            top: 97%;
+            right: 40%;
+        }
+    }
+
+    @include at-media(tablet) {
+        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
+            top: 97%;
+            left: 43%;
+        }
+        #nci2i-news .owl-carousel .owl-nav button.owl-next {
+            top: 97%;
+            right: 43%;
+        }
+    }
+
+    @include at-media(tablet-lg) {
+        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
+            top: 97%;
+            left: 44.5%;
+        }
+        #nci2i-news .owl-carousel .owl-nav button.owl-next {
+            top: 97%;
+            right: 44.5%;
+        }
+    }
+
+    @include at-media(desktop) {
+        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
+            top: 97%;
+            left: 44.5%;
+        }
+        #nci2i-news .owl-carousel .owl-nav button.owl-next {
+            top: 97%;
+            right: 44.5%;
+        }
+    }    
+
+    @include at-media(desktop-lg) {
+        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
+            top: 97%;
+            left: 46%;
+        }
+        #nci2i-news .owl-carousel .owl-nav button.owl-next {
+            top: 97%;
+            right: 46%;
+        }
+    }
+
+    @include at-media(widescreen) {
+        #nci2i-news .owl-carousel .owl-nav button.owl-prev {
+            top: 97%;
+            left: 46%;
+        }
+        #nci2i-news .owl-carousel .owl-nav button.owl-next {
+            top: 97%;
+            right: 46%;
+        }
     }
 }
