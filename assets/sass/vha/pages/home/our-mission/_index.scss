@@ -32,7 +32,7 @@
     @include at-media(mobile) {
         // mobile = 320
         .mission-text {
-            h1 {
+            h2 {
                 text-align: center;
             }
         }
@@ -41,7 +41,7 @@
     @include at-media(mobile-lg) {
         // mobile-lg = 480
         .mission-text {
-            h1 {
+            h2 {
                 text-align: center;
             }
         }
@@ -50,7 +50,7 @@
     @include at-media(tablet) {
         // tablet = 640
         .mission-text {
-            h1 {
+            h2 {
                 text-align: center;
             }
             p {
@@ -62,7 +62,7 @@
     @include at-media(tablet-lg) {
         // tablet-lg = 880
         .mission-text {
-            h1 {
+            h2 {
                 text-align: center;
             }
             p {
@@ -74,7 +74,7 @@
     @include at-media(desktop) {
         // desktop = 1024
         .mission-text {
-            h1 {
+            h2 {
                 text-align: center;
             }
             p {
@@ -86,7 +86,7 @@
     @include at-media(desktop-lg) {
         // desktop-lg = 1200
         .mission-text {
-            h1 {
+            h2 {
                 text-align: center;
             }
             p {
@@ -98,7 +98,7 @@
     @include at-media(widescreen) {
         // widescreen = 1400
         .mission-text {
-            h1 {
+            h2 {
                 text-align: center;
             }
             p {
