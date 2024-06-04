@@ -45,14 +45,14 @@
     .owl-carousel .owl-nav button.owl-prev {
         display: inline !important;
         top: 97%;
-        left: 33%;
+        left: 30.5%;
         border-radius: 4px !important;
         background: #d83933 !important;
     }
     .owl-carousel .owl-nav button.owl-next {
         display: inline !important;
         top: 97%;
-        right: 33%;
+        right: 30.5%;
         border-radius: 4px !important;
         background: #d83933 !important;
     }
@@ -61,22 +61,22 @@
 @include at-media(mobile-lg) { // 480px
     .owl-carousel .owl-nav button.owl-prev {
         top: 97%;
-        left: 40%;
+        left: 37%;
     }
     .owl-carousel .owl-nav button.owl-next {
         top: 97%;
-        right: 40%;
+        right: 37%;
     }
 }
 
 @include at-media(tablet) { // 640px
     .owl-carousel .owl-nav button.owl-prev {
         top: 97%;
-        left: 42%;
+        left: 40.5%;
     }
     .owl-carousel .owl-nav button.owl-next {
         top: 97%;
-        right: 42%;
+        right: 40.5%;
     }
 }
 
@@ -94,33 +94,33 @@
 @include at-media(desktop) { // 1024px
     .owl-carousel .owl-nav button.owl-prev {
         top: 97%;
-        left: 44.5%;
+        left: 44%;
     }
     .owl-carousel .owl-nav button.owl-next {
         top: 97%;
-        right: 44.5%;
+        right: 44%;
     }
 }    
 
 @include at-media(desktop-lg) { // 1200px
     .owl-carousel .owl-nav button.owl-prev {
         top: 97%;
-        left: 46%;
+        left: 45%;
     }
     .owl-carousel .owl-nav button.owl-next {
         top: 97%;
-        right: 46%;
+        right: 45%;
     }
 }
 
 @include at-media(widescreen) { // 1400px
     .owl-carousel .owl-nav button.owl-prev {
         top: 97%;
-        left: 46%;
+        left: 45.5%;
     }
     .owl-carousel .owl-nav button.owl-next {
         top: 97%;
-        right: 46%;
+        right: 45.5%;
     }
 }
 }

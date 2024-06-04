@@ -27,15 +27,6 @@ let news3 = {
 };
 
 let news4 = {
-    url: "https://issuu.com/faircountmedia/docs/veterans_affairs_military_medicine_outlook_spring_/s/12248843",
-    fellow_status: "current",
-    img: "assets/img/home/news/personalized-healthcare.png",
-    alt: "Dr. Osborne in office with computer display of medical imaging examples",
-    title: "Innovative Technologies Support Personalized Healthcare",
-    article_copy: "One continuing characteristic of VA medical care is the embrace and application of innovative technologies to support the personalized healthcare of America's Veterans."
-};
-
-let news5 = {
     url: "https://www.fedscoop.com/va-health-incubator-starts-disease-prevention-tools/",
     fellow_status: "current",
     img: "assets/img/home/news/disease-prevention-tools.jpg",
@@ -44,7 +35,7 @@ let news5 = {
     article_copy: "VA's new collaborative health care innovation center is initially focusing on the creation of prevention tools that predict disease and improve patient safety."
 };
 
-let news6 = {
+let news5 = {
     url: "https://www.usmedicine.com/non-clinical-topics/technology/vas-innovation-chief-sees-himself-as-a-catalyst-to-bring-people-ideas-together/",
     fellow_status: "current",
     img: "assets/img/home/news/bring-people-ideas-together.jpg",
@@ -53,7 +44,7 @@ let news6 = {
     article_copy: "The journey of Thomas Osborne, MD, into medicine was not a straight line, but it was a path that seems strangely appropriate considering his role now as Director of VA's brand new National Center for Collaborative Healthcare Innovation."
 };
 
-let news7 = {
+let news6 = {
     url: "https://tippie.uiowa.edu/news/business-analytics-capstone-project-finds-better-outcomes-covid-19-patients-low-dose-aspirin-regimen",
     fellow_status: "current",
     img: "assets/img/home/news/capstone-project.jpg",
@@ -62,7 +53,7 @@ let news7 = {
     article_copy: "Business Analytics capstone project finds better outcomes for COVID-19 patients on a low dose aspirin regimen"
 };
 
-let news8 = {
+let news7 = {
     url: "https://blogs.va.gov/VAntage/85449/face-of-innovation-kalyn-essex/",
     fellow_status: "current",
     img: "assets/img/home/news/face-of-innovation.jpg",
@@ -71,7 +62,7 @@ let news8 = {
     article_copy: "It's all about people for Kalyn Essex. Whether they be her fellow airmen, fellow Veterans, fellow employees, or her students, it's the connection she makes with people that she has always enjoyed - that human connection that led her to VA and eventually to becoming an Innovation Specialist at the VA Palo Alto Health Care System (HCS)."
 };
 
-let news9 = {
+let news8 = {
     url: "https://ai.healthcareitnews.com/ai-powered-healthcare/va-launches-collaborative-healthcare-innovation-center-california",
     fellow_status: "current",
     img: "assets/img/home/news/ncchi.jpg",
@@ -80,7 +71,7 @@ let news9 = {
     article_copy: "With the goal of taking advantage of emerging technology to improve veteran care, the Department of Veterans Affairs (VA) recently established the National Center for Collaborative Healthcare Innovation (NCCHI) within the Palo Alto Health Care System (VAPAHCS) in California."
 };
 
-let news10 = {
+let news9 = {
     url: "https://www.va.gov/opa/pressrel/pressrelease.cfm?id=5309",
     fellow_status: "current",
     img: "assets/img/home/news/first-innovation-center.jpg",
@@ -89,7 +80,7 @@ let news10 = {
     article_copy: "VA recently established the National Center for Collaborative Healthcare Innovation (NCCHI) within the VA Palo Alto Health Care System (VAPAHCS) in California as part of the department's strategy to advance Veteran health care services with cutting edge technology."
 };
 
-let news11 = {
+let news10 = {
     url: "https://federalnewsnetwork.com/tom-temin-federal-drive/2019/11/va-creates-awards-innovation-honor-for-late-under-secretary-of-health/",
     fellow_status: "current",
     img: "assets/img/home/news/robert-jesse-award.jpg",
@@ -98,7 +89,7 @@ let news11 = {
     article_copy: "To honor the late Under Secretary for Health Dr. Robert Jesse, the Department of Veterans Affairs named an annual award for Excellence in Innovation in his name. This year, the award went to Dr. Thomas Osborne, director of the VA National Center for Collaborative Healthcare Innovation."
 };
 
-let news12 = {
+let news11 = {
     url: "https://www.digitaljournal.com/pr/4879783#ixzz7UA5UgnSb",
     fellow_status: "current",
     img: "assets/img/home/news/smart-sock.jpg",
@@ -107,7 +98,7 @@ let news12 = {
     article_copy: "VA and Palarum, LLC, announced that they have entered into a Cooperative Research and Development Agreement Program (CRADA) to evaluate Palarum's innovative e-wearable technology which is designed to reduce inpatient falls."
 };
 
-let news13 = {
+let news12 = {
     url: "https://www.va.gov/opa/pressrel/pressrelease.cfm?id=5433",
     fellow_status: "current",
     img: "assets/img/home/news/xprize-pandemic-alliance.jpg",
@@ -116,7 +107,7 @@ let news13 = {
     article_copy: "VA announced that it has partnered with the XPRIZE Foundation's Pandemic Alliance as part of a public and private coalition to help develop ways to address the coronavirus disease 2019 (COVID-19) pandemic and subsequent global outbreaks."
 };
 
-let news14 = {
+let news13 = {
     url: "https://med.stanford.edu/radiology/news/2019/thomas-osborne-received-robert-l-jesse-award.html",
     fellow_status: "current",
     img: "assets/img/home/news/jesse-award-osborne.jpg",
@@ -125,7 +116,7 @@ let news14 = {
     article_copy: "Thomas Osborne, MD, Clinical Assistant Professor (Affiliated) of Neuroimaging at the VA Palo Alto Health Care System (VAPAHCS), was presented the inaugural Under Secretary for Health Robert L. Jesse Award for Excellence in Innovation from VA. This award recognizes and honors VA employees who have demonstrated excellence and enabled the discovery and spread of health care innovation that exceeds expectations, restores hope and builds trust."
 };
 
-let news15 = {
+let news14 = {
     url: "https://www.bloomberg.com/press-releases/2022-08-23/legacy-partners-with-the-us-department-of-veterans-affairs-to-analyze-fertility-in-global-war-on-terror-veterans",
     fellow_status: "current",
     img: "assets/img/home/news/legacy-partners.jpg",
@@ -134,7 +125,7 @@ let news15 = {
     article_copy: "Legacy, the leading digital male fertility clinic, announced its CRADA with VA to shed light on infertility in the military"
 };
 
-let news16 = {
+let news15 = {
     url: "https://news.va.gov/99336/va-employee-revolutionizes-ridesharing-for-veterans/",
     fellow_status: "current",
     img: "assets/img/home/news/veteran-rideshare.jpg",
@@ -143,7 +134,7 @@ let news16 = {
     article_copy: "Boston VA's Charles Franklin worked with Innovators Network and New England Center for Innovation Excellence to design and implement a rideshare program to meet Veteran housing and employment needs."
 };
 
-let news17 = {
+let news16 = {
     url: "https://www.militarytimes.com/news/pentagon-congress/2022/08/23/study-to-examine-reasons-for-infertility-among-recent-war-veterans/",
     fellow_status: "current",
     img: "assets/img/home/news/veteran-infertility.jpg",
@@ -152,7 +143,7 @@ let news17 = {
     article_copy: "Researchers announce plans for a new study to discover reasons why veterans from the recent wars are more likely to struggle with infertility than their civilian peers."
 };
 
-let news18 = {
+let news17 = {
     url: "https://nationalcenterformobilitymanagement.org/blog/rideshare-veterans/",
     fellow_status: "current",
     img: "assets/img/home/news/vulnerable-veterans-rideshare.jpg",
@@ -161,7 +152,7 @@ let news18 = {
     article_copy: "Studies have found that access to reliable transportation is one of the biggest factors when it comes to escaping from poverty. To meet the needs of unsheltered veterans and those at risk of homelessness, VA has launched a nationwide rideshare program to streamline vulnerable veterans' access to critically needed services."
 };
 
-let news19 = {
+let news18 = {
     url: "https://news.va.gov/102631/rideshare-program-helps-veteran-find-news-roads-to-employment/",
     fellow_status: "current",
     img: "assets/img/home/news/rideshare-for-veteran-employment.jpg",
@@ -172,7 +163,7 @@ let news19 = {
 
 
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(news1, news2, news3, news4, news5, news6, news7, news8, news9, news10, news11, news12, news13, news14, news15, news16, news17, news18, news19);
+var fellowsArray = new Array(news1, news2, news3, news4, news5, news6, news7, news8, news9, news10, news11, news12, news13, news14, news15, news16, news17, news18);
 
 var tab;
 var img;
@@ -236,6 +227,6 @@ currentData.data.push(newCurrentFellowsArray);
 currentData.data[0].forEach(current => $('.owl-carousel.nci2i--news').append("<div class='usa-card__container item'>" + "<a href=" 
 + current.url + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" 
 + current.img + "'alt='" + current.alt + "' />" + "</div>" + "</div>" 
-+ "<div class='usa-card__body'>" + "<h3 class='margin-y-0 h4'>" 
++ "<div class='usa-card__body'>" + "<h3 class='margin-y-0'>" 
 + current.title + "</h3>" + "<p>" 
 + current.article_copy + "</p>" + "</div>" + "</a>" + "</div>"));
