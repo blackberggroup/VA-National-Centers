@@ -338,18 +338,12 @@
         box-shadow: inset 0 0 0 2px #dcdcdc;
         background-color: transparent;
         color: #dcdcdc;
-        position: absolute;
-        top: 39%;
-        left: 0%;
     }
 
     .masthead__img-container .owl-carousel .owl-nav button.owl-prev:active {
         box-shadow: inset 0 0 0 2px #162e51;
         background-color: transparent;
         color: #162e51;
-        position: absolute;
-        top: 39%;
-        left: 0%;
     }
 
     .masthead__img-container .owl-carousel .owl-nav button.owl-next {
@@ -365,18 +359,58 @@
         box-shadow: inset 0 0 0 2px #dcdcdc;
         background-color: transparent;
         color: #dcdcdc;
-        position: absolute;
-        top: 39%;
-        right: 0%;
     }
 
     .masthead__img-container .owl-carousel .owl-nav button.owl-next:active {
         box-shadow: inset 0 0 0 2px #162e51;
         background-color: transparent;
         color: #162e51;
-        position: absolute;
-        top: 39%;
-        right: 0%;
+    }
+
+    @media screen and (max-width: 880px) {
+        .masthead__img-container .owl-carousel .owl-nav button {
+            &.owl-prev, &.owl-next {
+            display: none !important;
+          }
+        }
+    }
+
+    @media screen and (max-width: 1023px) {
+        .masthead__img-container .owl-carousel .owl-nav button {
+            &.owl-prev, &.owl-next {
+            display: none !important;
+          }
+        }
+    }
+
+    @include at-media(desktop) {
+        .masthead__img-container .owl-carousel .owl-nav button {
+            &.owl-prev {
+                position: absolute;
+                top: 36%;
+                left: -2%;
+            }
+            &.owl-next {
+                position: absolute;
+                top: 36%;
+                right: -2%;
+            }
+        }
+    }
+
+    @include at-media(desktop-lg) {
+        .masthead__img-container .owl-carousel .owl-nav button {
+            &.owl-prev {
+                position: absolute;
+                top: 39%;
+                left: 0%;
+            }
+            &.owl-next {
+                position: absolute;
+                top: 39%;
+                right: 0%;
+            }
+        }
     }
 
     .masthead__img-container .owl-theme .owl-dots {
