@@ -28,7 +28,7 @@ var newsData = {
         {
           "img": "../assets/img/ideas/news/ideas-news-4.png",
           "alt": "Person speaking on stage",
-          "title": "Innovator Debra Cole Featured in Scanner Magazine ",
+          "title": "Atlas featured in publication by American Society of Radiologic Technologists",
           "description": "The Atlas Knee Supporter, an invention by Debra \"DJ\" Cole, a technologist at Central Virginia VA Health Care System, was featured in Scanner, a publication by the American Society of Radiologic Technologists publication. ",
           "tag": "",
           "url": "../assets/documents/ideas/DJ-Scanner.pdf",
