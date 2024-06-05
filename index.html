@@ -25,9 +25,21 @@
       {% include "header.html" %}
       
         <main>
-            <div style="height: 200px; text-align:center;">
-              <h1 style="padding-top: 50px;">The National Center for Innovation 2 Impact</h1>
-            </div>
+          
+          {% include "home/masthead.html" %}
+          
+          {% include "home/our-mission.html" %}
+          
+          {% include "home/national-centers.html" %}
+          
+          {% include "home/accelerating-hci.html" %}
+          
+          {% include "home/national-centers-map.html" %}
+          
+          {% include "home/featured-successes.html" %}
+
+          {% include "home/news-and-events.html" %}
+
         </main>
 
       {% include "footer.html" %}
@@ -36,6 +48,11 @@
     <!-- SITE WRAPPER - END -->
 
     <script src="assets/uswds/js/uswds.min.js"></script>
+    <script src="assets/js/vendors/lazy/jquery.lazy.min.js"></script> 
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script src="assets/js/mustache-fellows-render.js"></script>
+    <script src="assets/js/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/js/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/functions.js"></script>
 
 </body>

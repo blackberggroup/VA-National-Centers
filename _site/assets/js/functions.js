@@ -38,8 +38,6 @@ if ($('.ncchi-home .owl-carousel').length > 0){
 	});
   }
 
-
-
 if ($('#drhci-body .owl-carousel').length > 0){
 	$('#drhci-body .owl-carousel').owlCarousel({
 		loop:true,
@@ -59,6 +57,56 @@ if ($('#drhci-body .owl-carousel').length > 0){
 		}
 	});
 }
+
+// NCI2I hero carousel
+if ($('#masthead .owl-carousel').length > 0){
+	$(function () {
+	  $('#masthead .owl-carousel').owlCarousel({
+		loop: true,
+		margin: 10,
+		responsiveClass: true,
+		responsive:{
+		  0: {
+			items: 1,
+			nav: true
+		  },
+		  800: {
+			items: 1,
+			nav: false
+		  },
+		  1000: {
+			items: 1,
+			nav: true,
+			loop: true
+		  }
+		}
+	  });
+	});
+  }
+
+// if ($('.owl-carousel.current--fellows').length > 0) {
+//     $('.owl-carousel.current--fellows').owlCarousel({
+	if ($('.owl-carousel.nci2i--news').length > 0) {
+		$('.owl-carousel.nci2i--news').owlCarousel({
+			loop: true,
+			margin: 10,
+			nav: true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				1000:{
+					items:3
+				},
+				1400:{
+					items:4
+				}
+			}
+		});
+	}
 
 
 if ($('.owl-stage').length > 0) {
@@ -143,7 +191,6 @@ $('.scroll').on('click',function(e) {
 		// window.location.hash = target;
 	});
 });
-
 
 // Accessibility functions for owl-carousel plugin
 $( document ).ready(function() {
