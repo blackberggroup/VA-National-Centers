@@ -25,20 +25,25 @@
 
 <body id="va-ventures-body">
 
-    <!-- SITE WRAPPER - START -->
-    <div class="site-wrapper">
-      {% include "header-sub.html" %}
-      
-        <main>
-            <div style="height: 200px; text-align:center;">
-              <h1 style="padding-top: 50px;">NCI2I VA Ventures</h1>
-            </div>
-        </main>
+  <!-- SITE WRAPPER - START -->
+  <div class="site-wrapper">
 
-        {% include "footer-sub.html" %}
+    {% include "header-sub.html" %}
+    
+      <main>
+          {% include "ventures/1_masthead.html" %}
+          {% include "ventures/2_mission.html" %}
+          {% include "ventures/3_news.html" %}
+          {% include "ventures/4_director.html" %}
+          {% include "ventures/5_connect.html" %}
+      </main>
 
-    </div>
-    <!-- SITE WRAPPER - END -->
+    {% include "footer-sub.html" %}
+
+  </div>
+  <!-- SITE WRAPPER - END -->
+
+
 
     <script src="../assets/uswds/js/uswds.min.js"></script>
     <script src="../assets/js/vendors/lazy/jquery.lazy.min.js"></script>
