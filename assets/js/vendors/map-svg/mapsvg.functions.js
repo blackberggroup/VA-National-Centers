@@ -43,7 +43,7 @@ jQuery(document).ready(function() {
 		source: "assets/img/map-svg/usa.svg",
 		title: "Site Location Map",
 		markers: [{
-			id: "VA Puget Sound health Care System<br />\nSeattle, WA",
+			id: "VA Puget Sound Health Care System<br />\nSeattle, WA",
 			attached: true,
 			isLink: false,
 			tooltip: "<strong>VA Ventures</strong>",
