@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <meta name="description" content="">
+  <meta name="description" content="VA Ventures is a Medical Product Innovation Incubator that promotes early collaboration between VA, other federal agencies, academia, and industry.">
   <meta name="keywords" content="VA Ventures, VA Puget Sound Health Care System">
   <title>VHA - VA Ventures, VA Puget Sound Health Care System</title>
 
@@ -23,26 +23,35 @@
   <script src="../assets/uswds/js/uswds-init.min.js"></script>
 </head>
 
-<body id="va-ventures-body">
+<body id="drhci-body">
 
-    <!-- SITE WRAPPER - START -->
-    <div class="site-wrapper">
-      {% include "header-sub.html" %}
-      
-        <main>
-            <div style="height: 200px; text-align:center;">
-              <h1 style="padding-top: 50px;">NCI2I VA Ventures</h1>
-            </div>
-        </main>
+  <!-- SITE WRAPPER - START -->
+  <div class="site-wrapper">
 
-        {% include "footer-sub.html" %}
+    {% include "header-sub.html" %}
+    
+      <main>
+          {% include "ventures/1_masthead.html" %}
+          {% include "ventures/2_mission.html" %}
+          {% include "ventures/3_news.html" %}
+          {% include "ventures/4_director.html" %}
+          {% include "ventures/5_connect.html" %}
+      </main>
 
-    </div>
-    <!-- SITE WRAPPER - END -->
+    {% include "footer-sub.html" %}
 
-    <script src="../assets/uswds/js/uswds.min.js"></script>
-    <script src="../assets/js/vendors/lazy/jquery.lazy.min.js"></script>
-    <script src="../assets/js/functions.js"></script>
+  </div>
+  <!-- SITE WRAPPER - END -->
+
+
+
+  <script src="../assets/js/vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="../assets/js/ventures-home-news.js"></script>
+
+  <script src="../assets/uswds/js/uswds.min.js"></script>
+
+  <script src="../assets/js/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="../assets/js/functions.js"></script>
 
 </body>
 
