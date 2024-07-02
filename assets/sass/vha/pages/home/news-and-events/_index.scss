@@ -41,6 +41,11 @@
     background: #D83933;
   }
 
+  .owl-carousel.owl-loaded {
+    display: block;
+    padding: 0;
+  }
+
   @include at-media(mobile) { // 320px
     .owl-carousel .owl-nav button.owl-prev {
         display: inline !important;
