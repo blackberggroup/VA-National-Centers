@@ -1,0 +1,26 @@
+#drhci-body { 
+     #drhci-connect {
+          /*background: linear-gradient(90deg, #D64424 0%, #850E23 100%); */
+          color: #fff;
+
+          .usa-button {
+               width: auto;
+               font-size: 18px;
+          }
+
+          @media (max-width: 640px) {
+               h1 {
+                   font-size: 32px;
+               }
+           }
+     }
+}
+
+.usa-button-2 {
+     box-shadow: inset 0 0 0 2px #fff;
+     color: #fff;
+}
+.usa-button-2:hover {
+     box-shadow: inset 0 0 0 2px #dcdcdc;
+     color: #dcdcdc;
+}
