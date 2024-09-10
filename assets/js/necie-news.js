@@ -89,8 +89,8 @@ newsData.data.forEach(news => {
             </div>
           </div>
           <div class="usa-card__body">
-            <h2 class="h3">${news.title}</h2>
-            <p>${news.description}</p>
+            <h2 class="h3 news-t">${news.title}</h2>
+            <p class="news-p">${news.description}</p>
             <span class="usa-tag text-base-darkest bg-accent-warm text-no-uppercase">${news.tag}</span>
           </div>
         </a>
