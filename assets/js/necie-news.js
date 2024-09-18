@@ -49,14 +49,6 @@ var newsData = {
       "url": ""
     },
     {
-      "img": "../assets/img/necie/news/give.jpg",
-      "title": "Give Legacy, Inc.",
-      "alt": "person sitting with folded hands",
-      "description": "VHA has partnered with Give Legacy, Inc. to test and cryopreserve sperm for Global War on Terror Veterans, addressing higher infertility rates compared to civilians. Researchers are collecting and analyzing samples, exploring factors like burn pit exposure, PTSD, and traumatic brain injury.",
-      "tag": "",
-      "url": ""
-    },
-    {
       "img": "../assets/img/necie/news/necie-wins-va-center-for-development.jpg",
       "alt": "5 people receiving award on stage",
       "title": "NECIE Wins VA Center for Development and Civic Engagement (CDCE) Spirit Corporate Recruitment Award 2022",
