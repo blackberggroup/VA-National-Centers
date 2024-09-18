@@ -4,7 +4,7 @@ var newsData = {
       "img": "../assets/img/necie/news/transforming-transportation-for-homeless-veterans.jpg",
       "alt": "Man driving in a car",
       "title": "Transforming Transportation for Homeless Veterans ",
-      "description": "The VA Rideshare Program, launched in 2018 at VA Boston HCS, offers transportation for homeless Veterans. Partnering with VHA IE and NECIE, it has provided over 250,000 rides since August 2021. Operating nationally, it supports healthcare, housing, food, employment, and disaster relief efforts.",
+      "description": "The VA Rideshare Program, launched in 2018 at VA Boston HCS, offers transportation for homeless Veterans. Partnering with VHA IE and NECIE, it has provided over 850,000 rides since August 2021. Operating nationally, it supports healthcare, housing, food, employment, and disaster relief efforts.",
       "tag": "",
       "url": "https://news.va.gov/74711/va-rideshare-rogram-adapts-help-covid-19/"
     },
@@ -49,18 +49,18 @@ var newsData = {
       "url": ""
     },
     {
-      "img": "../assets/img/necie/news/give.jpg",
-      "title": "Give Legacy, Inc.",
-      "alt": "person sitting with folded hands",
-      "description": "VHA has partnered with Give Legacy, Inc. to test and cryopreserve sperm for Global War on Terror Veterans, addressing higher infertility rates compared to civilians. Researchers are collecting and analyzing samples, exploring factors like burn pit exposure, PTSD, and traumatic brain injury.",
-      "tag": "",
-      "url": ""
-    },
-    {
       "img": "../assets/img/necie/news/necie-wins-va-center-for-development.jpg",
       "alt": "5 people receiving award on stage",
       "title": "NECIE Wins VA Center for Development and Civic Engagement (CDCE) Spirit Corporate Recruitment Award 2022",
       "description": "CDCE's American Spirit and Excellence Awards recognize outstanding programs, community partners, and staff for successful volunteer recruitment, impactful programs, and the dedication and talent of VA professionals within VHA and the Department.",
+      "tag": "",
+      "url": ""
+    },
+    {
+      "img": "../assets/img/necie/news/visn-1.jpg",
+      "alt": "Man working in lab on equipment",
+      "title": "Ambifi ﻿- Preventive Maintenance Management﻿",
+      "description": "NECIE and VISN 1 Office of Healthcare Technology Management is collaborating with AmbiFi, Inc. The collaboration aims to eliminate delays and/or defects allowing for faster turn-around-time for medical devices to be available for Veteran care.",
       "tag": "",
       "url": ""
     },
