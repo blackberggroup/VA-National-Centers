@@ -3,8 +3,8 @@ var newsData = {
     {
       "img": "../assets/img/necie/news/transforming-transportation-for-homeless-veterans.jpg",
       "alt": "Man driving in a car",
-      "title": "Transforming Transportation for Homeless Veterans ",
-      "description": "The VA Rideshare Program, launched in 2018 at VA Boston HCS, offers transportation for homeless Veterans. Partnering with VHA IE and NECIE, it has provided over 850,000 rides since August 2021. Operating nationally, it supports healthcare, housing, food, employment, and disaster relief efforts.",
+      "title": "Transforming Transportation for Veterans Experiencing Homelessness",
+      "description": "The VA Rideshare Program was launched in 2018 in collaboration with VHA IE and NECIE. Between August 2021 and May 2023, the program provided over 850,000 rides to Veterans experiencing homelessness.",
       "tag": "",
       "url": "https://news.va.gov/74711/va-rideshare-rogram-adapts-help-covid-19/"
     },
