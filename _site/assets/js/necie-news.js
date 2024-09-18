@@ -57,6 +57,14 @@ var newsData = {
       "url": ""
     },
     {
+      "img": "../assets/img/necie/news/visn-1.jpg",
+      "alt": "Man working in lab on equipment",
+      "title": "Ambifi ﻿- Preventive Maintenance Management﻿",
+      "description": "NECIE and VISN 1 Office of Healthcare Technology Management is collaborating with AmbiFi, Inc. The collaboration aims to eliminate delays and/or defects allowing for faster turn-around-time for medical devices to be available for Veteran care.",
+      "tag": "",
+      "url": ""
+    },
+    {
       "img": "../assets/img/necie/news/hero.jpg",
       "alt": "HeRO logo",
       "title": "NECIE Program Wins 2021 HeRO Awardees Non-Clinical Team from a VISN or Facility for Excellence in CARE and HRO Principles.",
