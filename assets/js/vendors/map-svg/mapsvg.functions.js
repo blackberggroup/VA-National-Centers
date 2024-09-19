@@ -50,8 +50,8 @@ jQuery(document).ready(function() {
 			popover: "<strong>VA Ventures</strong>\n<br /><br />\nSeattle, WA\n<br />\n<a href=\"https://www.innovation.va.gov/oam/views/programs/va-ventures.html\">Visit Website</a>",
 			data: {},
 			src: "assets/img/map-svg/default-pin.svg",
-			width: 26,
-			height: 30,
+			width: 0,
+			height: 0,
 			x: 529.6547009588819,
 			y: 464.3699853100326,
 			geoCoords: [47.613378, -122.194597]
