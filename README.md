@@ -1,5 +1,4 @@
-# VA-NCCHI-beta
-Azure link: https://polite-smoke-0f3014810-59.centralus.3.azurestaticapps.net
+# VA-National-Centers
 
 
 ## Description
@@ -8,7 +7,7 @@ National Center for Collaborative Healthcare Innovation website repo.
 ## How to Install and Run the Project
 1. Clone this repo. Navigate to the directory where you'd like to put the va-ncchi-beta directory and run:
     ```bash
-    git clone https://github.com/WBDynamics/VA-NCCHI-beta.git
+    git clone https://github.com/WBDynamics/VA-National-Center.git
     ```
     
     This will create a va-ncchi-beta directory with the website files inside. Navigate to this new directory:
